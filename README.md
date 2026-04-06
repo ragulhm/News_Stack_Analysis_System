@@ -28,25 +28,29 @@ The application is wrapped in three critical layers of protection:
 - **Rate Limit Node**: Throttles aggressive request patterns (50 req/min) using the Neural Buffer.
 - **Auth Sentinel**: Verifies JWT Identity Tokens and maps them to secure session cookies.
 
-### 3. Data Flow & Persistence (The Identity Node)
-The system employs a unique **Resilient Database Protocol**:
-```mermaid
-graph TD
-    A[Client Request] --> B[Middleware Matrix]
-    B --> C{Primary Node?}
-    C -- Connected --> D[(MongoDB Atlas)]
-    C -- Timeout/Failure --> E[(Local Identity JSON)]
-    D --> F[Data Synchronization]
-    E --> F
-    F --> G[Service Logic]
-    G --> H[Jinja2 Rendering]
-    H --> I[Client Dashboard]
-```
+### 3. Telemetry Node (yfinance Stack)
+The project leverages `yfinance` to tap into the Global Financial Mesh, providing:
+- **Real-Time OHLC Data**: High-precision Open, High, Low, and Close price points.
+- **Neural Sparklines**: Dynamic trend visualization for the 'Market Pulse' grids.
+- **Institutional Summaries**: In-depth company profiles, P/E ratios, and market capitalization stats retrieved asynchronously.
 
-### 4. Neural Buffer (Caching Protocol)
-To minimize latency and external API calls, a resilient caching layer is implemented:
-- **Redis Node**: High-speed KV store for rate-limit tracking and frequent ticker summaries.
-- **In-Memory Fallback**: An automatic dictionary-based buffer that engages if the Redis daemon is unreachable.
+### 4. Intelligence Node (NewsAPI & Sentiment)
+Custom news integration connects to the `NewsAPI` global feed:
+- **Asynchronous Ingestion**: Non-blocking news retrieval using `httpx`.
+- **Vertical Sentiment Vectoring**: Every headline is processed to gauge market momentum, providing a 'Neural Sentiment' overlay for smarter decision making.
+
+---
+
+## 🌎 Uses and Strategic Impact
+
+### 1. Democratizing Institutional Intelligence
+By providing professional-grade analytics (OHLC, Sparklines, Sentiment) in a high-speed glassmorphic dashboard, the project empowers individual traders with tools typically reserved for terminal-based institutions.
+
+### 2. High-Availability Financial Monitoring
+The **Obsidian Monolith** design ensures that market monitoring doesn't stop during network instability. Traders can still access their identity and local market cache even when external cloud databases are unreachable.
+
+### 3. Sentiment-Driven Market Awareness
+Beyond simple price tracking, the integration of AI-driven sentiment analysis allows users to understand the *narrative* behind the numbers, providing a tactical edge in volatile global markets.
 
 ---
 
