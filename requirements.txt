@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+jinja2
+httpx
+yfinance
+pandas
+vaderSentiment
+python-multipart
+motor
+dnspython
+python-jose[cryptography]
+passlib[bcrypt]
+pydantic-settings
+python-dotenv
+email-validator

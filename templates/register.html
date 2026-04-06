@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="max-w-lg mx-auto mt-24 p-8 glass rounded-[2rem] border border-white/5 shadow-3xl">
+    <h2 class="text-3xl font-black text-white uppercase mb-6 text-center">JOIN NETWORK</h2>
+    <form action="/register" method="post" class="space-y-6">
+        <input type="text" name="username" placeholder="USER_ID" required
+               class="w-full bg-black/70 border border-white/10 rounded-2xl px-6 py-3 text-white font-black placeholder:text-slate-500 uppercase">
+        <input type="email" name="email" placeholder="EMAIL (optional)"
+               class="w-full bg-black/70 border border-white/10 rounded-2xl px-6 py-3 text-white font-black placeholder:text-slate-500 uppercase">
+        <input type="password" name="password" placeholder="SECRET_KEY" required
+               class="w-full bg-black/70 border border-white/10 rounded-2xl px-6 py-3 text-white font-black placeholder:text-slate-500 uppercase">
+        <button type="submit"
+                class="w-full bg-gradient-to-br from-blue-400 to-indigo-600 text-white py-3 rounded-xl font-black uppercase tracking-widest hover:scale-105 transition-transform">
+            CREATE NODE
+        </button>
+    </form>
+    <p class="mt-4 text-center text-slate-400">
+        Already a member? <a href="/login" class="text-blue-400 hover:underline">ACCESS NODE</a>
+    </p>
+</div>
+{% endblock %}

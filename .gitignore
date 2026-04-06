@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Credentials & Local Data
+.env
+database/local_identity.json
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Distribution
+dist/
+build/
+*.egg-info/

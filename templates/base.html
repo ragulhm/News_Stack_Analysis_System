@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title | default("Universal Analysis") }} | STOCKSCOPE ELITE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lightweight-charts@4.1.1/dist/lightweight-charts.standalone.production.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-obsidian: #000000;
+            --emerald-glow: #10b981;
+            --rose-glow: #f43f5e;
+            --glass-white: rgba(255, 255, 255, 0.02);
+            --glass-border: rgba(255, 255, 255, 0.06);
+        }
+
+        body {
+            background-color: var(--bg-obsidian);
+            /* Subtle High-End Noise/Grain Texture */
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            background-blend-mode: overlay;
+            background-size: 150px 150px;
+            color: #f8fafc;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        .font-outfit {
+            font-family: 'Outfit', sans-serif;
+        }
+
+        /* Premium 2.0 Glassmorphism */
+        .glass {
+            background: rgba(255, 255, 255, 0.015);
+            backdrop-filter: blur(48px);
+            -webkit-backdrop-filter: blur(48px);
+            border: 1px solid var(--glass-border);
+            box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.05);
+        }
+
+        .card-hover {
+            transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .card-hover:hover {
+            transform: translateY(-8px) scale(1.01);
+            background: rgba(255, 255, 255, 0.04);
+            border-color: rgba(16, 185, 129, 0.4);
+            box-shadow: 0 40px 80px -20px rgba(0, 0, 0, 0.8), 0 0 20px rgba(16, 185, 129, 0.05);
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .neon-glow-emerald {
+            text-shadow: 0 0 20px rgba(16, 185, 129, 0.5);
+        }
+
+        .neon-glow-rose {
+            text-shadow: 0 0 20px rgba(244, 63, 94, 0.5);
+        }
+
+        /* Professional Typography Scale */
+        .hero-title {
+            font-size: clamp(2.5rem, 8vw, 5.5rem);
+            line-height: 0.9;
+            letter-spacing: -0.04em;
+            font-weight: 950;
+            font-style: italic;
+            text-transform: uppercase;
+        }
+
+        /* Custom Elite Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-obsidian);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #111827;
+            border-radius: 10px;
+            border: 2px solid var(--bg-obsidian);
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #1f2937;
+        }
+
+        @keyframes slideUpFade {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-elite {
+            animation: slideUpFade 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col">
+    <!-- Institutional Nav -->
+    <nav class="sticky top-0 z-50 glass border-b border-white/5 px-12 py-7">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="flex items-center gap-5 group">
+                <div
+                    class="bg-gradient-to-br from-emerald-500/30 to-blue-600/30 p-4 rounded-3xl group-hover:rotate-[15deg] transition-all duration-700 shadow-xl shadow-emerald-500/10">
+                    <span class="text-3xl">📈</span>
+                </div>
+                <h1 class="text-3xl font-black tracking-tighter text-gradient uppercase italic">STOCKSCOPE</h1>
+            </a>
+
+            <div class="hidden lg:flex gap-16 font-black uppercase text-[11px] tracking-[0.4em] text-slate-500">
+                <a href="/" class="hover:text-emerald-400 transition-all flex items-center gap-3">
+                    <span class="text-xl opacity-40"></span> DASHBOARD
+                </a>
+                <a href="/news" class="hover:text-emerald-400 transition-all flex items-center gap-3">
+                    <span class="text-xl opacity-40"></span> MARKET_NEWS
+                </a>
+                <a href="/global" class="hover:text-emerald-400 transition-all flex items-center gap-3">
+                    <span class="text-xl opacity-40"></span> GLOBAL_GATE
+                </a>
+                <a href="/india" class="hover:text-emerald-400 transition-all flex items-center gap-3">
+                    <span class="text-xl opacity-40"></span> INDIA_MATRIX
+                </a>
+
+                {% if request.state.user %}
+                <a href="#" class="hover:text-emerald-400 transition-all flex items-center gap-3 group relative">
+                    <span class="text-xl opacity-40 group-hover:animate-pulse">99</span>
+                    <span class="text-emerald-400">{{ request.state.user.username }}</span>
+                </a>
+                <a href="/logout" class="hover:text-rose-500 transition-all flex items-center gap-3">
+                    <span class="text-xl opacity-40"></span> DISCONNECT
+                </a>
+                {% else %}
+                <a href="/login" class="hover:text-emerald-400 transition-all flex items-center gap-3">
+                    <span class="text-xl opacity-40"></span> SCAN_IDENTITY
+                </a>
+                <a href="/register" class="hover:text-emerald-400 transition-all flex items-center gap-3">
+                    <span class="text-xl opacity-40"></span> JOIN_NETWORK
+                </a>
+                {% endif %}
+            </div>
+
+            <div class="flex items-center gap-8">
+                <form action="/dashboard" method="GET" class="hidden sm:block relative">
+                    <input type="text" name="ticker" placeholder="TERMINAL_SCAN..."
+                        class="glass border-white/10 rounded-2xl px-8 py-3.5 w-64 focus:outline-none focus:ring-8 focus:ring-emerald-500/5 focus:border-emerald-500/40 text-[11px] font-black tracking-widest placeholder:text-slate-700 transition-all uppercase italic">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Flow -->
+    <main class="flex-grow container mx-auto px-10 py-20 animate-elite">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Institutional Footer -->
+    <footer class="border-t border-white/5 bg-black py-32 mt-32">
+        <div class="container mx-auto px-10">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-24">
+                <div class="col-span-1 md:col-span-2 space-y-10">
+                    <div class="flex items-center gap-5">
+                        <span class="text-4xl">📈</span>
+                        <span class="font-black text-4xl tracking-tighter text-gradient uppercase">STOCKSCOPE_OPS</span>
+                    </div>
+                    <p class="text-slate-600 text-xl font-bold leading-relaxed max-w-xl italic opacity-80">
+                        Defining the frontier of institutional-grade financial analysis. Proprietary visualization
+                        protocols for the global elite trader.
+                    </p>
+                    <div class="flex gap-10">
+                        <div
+                            class="w-12 h-12 rounded-2xl glass border-white/10 flex items-center justify-center text-slate-500 hover:text-emerald-400 cursor-pointer transition-all hover:scale-110">
+                            𝕏</div>
+                        <div
+                            class="w-12 h-12 rounded-2xl glass border-white/10 flex items-center justify-center text-slate-500 hover:text-emerald-400 cursor-pointer transition-all hover:scale-110">
+                            in</div>
+                        <div
+                            class="w-12 h-12 rounded-2xl glass border-white/10 flex items-center justify-center text-slate-500 hover:text-emerald-400 cursor-pointer transition-all hover:scale-110">
+                            git</div>
+                    </div>
+                </div>
+
+                <div class="space-y-8">
+                    <h4 class="text-white font-black uppercase text-xs tracking-[0.4em] text-emerald-500">EXCHANGE_MESH
+                    </h4>
+                    <ul class="space-y-6 text-sm font-black text-slate-600">
+                        <li><a href="/global"
+                                class="hover:text-emerald-400 transition-all uppercase tracking-[0.2em] italic">NASDAQ_TECH_PULSE</a>
+                        </li>
+                        <li><a href="/global"
+                                class="hover:text-emerald-400 transition-all uppercase tracking-[0.2em] italic">GLOBAL_ADR_SIGNAL</a>
+                        </li>
+                        <li><a href="/india"
+                                class="hover:text-emerald-400 transition-all uppercase tracking-[0.2em] italic">NIFTY_SENTINEL</a>
+                        </li>
+                        <li><a href="/india"
+                                class="hover:text-emerald-400 transition-all uppercase tracking-[0.2em] italic">INDIA_MACRO_FLOW</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="space-y-8">
+                    <h4 class="text-white font-black uppercase text-xs tracking-[0.4em] text-emerald-500">NODE_STATUS
+                    </h4>
+                    <div class="glass p-6 rounded-[2.5rem] space-y-4">
+                        <div class="flex items-center gap-3">
+                            <span class="w-2.5 h-2.5 bg-emerald-500 rounded-full animate-ping"></span>
+                            <span
+                                class="text-[10px] font-black text-emerald-400 uppercase tracking-widest">ENCRYPTED_LIVE</span>
+                        </div>
+                        <p
+                            class="text-[10px] text-slate-600 font-bold leading-relaxed uppercase tracking-tighter opacity-70">
+                            CONNECTED TO SEC_GATEWAY_V4. <br>
+                            LATENCY: 12MS <br>
+                            UPTIME: 99.99%
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="mt-32 pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-10">
+                <span class="text-[10px] font-black text-slate-800 uppercase tracking-[0.5em] italic">© MMXXVI
+                    STOCKSCOPE UNIVERSAL • ALPHA_OPS</span>
+                <div class="flex gap-12 text-[10px] font-black text-slate-600 uppercase tracking-widest italic">
+                    <a href="#" class="hover:text-emerald-400 transition-colors">SECURITY_PROTOCOL</a>
+                    <a href="#" class="hover:text-emerald-400 transition-colors">DATA_INTEGRITY</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

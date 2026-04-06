@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Elite Home - Institutional Gateway -->
+<div class="max-w-7xl mx-auto space-y-40 py-12 animate-elite">
+    
+    <!-- Ultra-Impact Hero Visualization -->
+    <header class="text-center space-y-16 relative py-36 overflow-hidden bg-white/[0.01] rounded-[6rem] border border-white/5 shadow-[0_60px_180px_-60px_rgba(0,0,0,0.9)]">
+        <!-- Abstract background elements -->
+        <div class="absolute inset-0 bg-gradient-to-b from-emerald-500/10 to-transparent opacity-20 blur-[150px] rounded-full scale-150"></div>
+        <div class="absolute -top-60 -left-60 w-[40rem] h-[40rem] bg-blue-500/10 blur-[120px] rounded-full"></div>
+        
+        <div class="space-y-8 relative z-10 px-8">
+            <h1 class="hero-title tracking-tighter text-white overflow-hidden pb-10">
+                <span class="block animate-elite" style="animation-delay: 0.1s">QUANTUM</span>
+                <span class="block text-gradient animate-elite" style="animation-delay: 0.3s">INTELLIGENCE</span>
+            </h1>
+            <p class="text-slate-500 text-xl md:text-2xl font-bold max-w-4xl mx-auto leading-relaxed italic opacity-70">
+                Access institutional-grade real-time analytics and neural sentiment vectors spanning the global financial mesh.
+            </p>
+        </div>
+
+        <!-- Universal Smart Terminal -->
+        <div class="max-w-2xl mx-auto relative z-10 pt-8 px-6">
+            <form action="/dashboard" method="GET" class="relative group">
+                <div class="absolute inset-y-0 left-0 pl-8 flex items-center pointer-events-none">
+                    <span class="text-2xl grayscale group-focus-within:grayscale-0 transition-opacity">🔭</span>
+                </div>
+                <input type="text" name="ticker" required 
+                       placeholder="SCAN_UNIVERSAL_SIGNAL..." 
+                       class="bg-black/80 border border-white/10 rounded-2xl px-20 py-5 w-full focus:outline-none focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500/40 transition-all text-base font-black tracking-widest shadow-2xl placeholder:text-slate-800 uppercase italic">
+                <button type="submit" 
+                        class="absolute inset-y-3 right-3 bg-gradient-to-br from-emerald-400 to-blue-600 hover:scale-105 active:scale-95 text-white px-8 py-2 rounded-xl font-black transition-all shadow-xl shadow-emerald-500/40 uppercase tracking-widest italic text-[9px]">
+                    SCAN_CORE
+                </button>
+            </form>
+            
+            <div class="mt-8 flex flex-wrap justify-center gap-8 text-[9px] font-black uppercase tracking-[0.4em] text-slate-700 italic">
+                <span class="text-slate-600">POPULAR_NODES:</span>
+                <a href="/dashboard?ticker=AAPL" class="hover:text-emerald-400 transition-all hover:scale-110">APPLE</a>
+                <a href="/dashboard?ticker=NVDA" class="hover:text-emerald-400 transition-all hover:scale-110">NVIDIA</a>
+                <a href="/dashboard?ticker=BTC-USD" class="hover:text-emerald-400 transition-all hover:scale-110">BITCOIN</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Professional Quadrants -->
+    <section class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <!-- Global Pulsar -->
+        <a href="/global" class="glass p-16 rounded-[4rem] border-white/5 card-hover group flex flex-col relative overflow-hidden min-h-[500px] shadow-3xl">
+            <div class="absolute top-0 right-0 p-12 opacity-[0.03] text-[15rem] font-black group-hover:scale-110 transition-transform duration-1000 italic">US</div>
+            <div class="space-y-8 relative z-10">
+                <div class="w-16 h-1 bg-emerald-500 rounded-full mb-8 shadow-[0_0_20px_#10b981]"></div>
+                <h3 class="text-5xl font-black text-white uppercase italic tracking-tighter leading-tight mb-4">GLOBAL<br>PULSE</h3>
+                <p class="text-slate-500 text-lg font-bold leading-relaxed max-w-xs italic opacity-70">Dominant US Equities, NASDAQ Leaders, and Universal ADR Protocols.</p>
+            </div>
+            <div class="mt-auto pt-10 border-t border-white/5 flex items-center justify-between relative z-10">
+                <span class="text-[9px] font-black text-emerald-500 uppercase tracking-[0.4em]">CONNECT_NODE</span>
+                <div class="p-5 rounded-[2rem] bg-white/5 border border-white/5 text-emerald-400 group-hover:bg-emerald-500 group-hover:text-white transition-all duration-700 shadow-xl">
+                    →
+                </div>
+            </div>
+        </a>
+
+        <!-- India Matrix -->
+        <a href="/india" class="glass p-16 rounded-[4rem] border-white/5 card-hover group flex flex-col relative overflow-hidden min-h-[500px] shadow-3xl">
+            <div class="absolute top-0 right-0 p-12 opacity-[0.03] text-[15rem] font-black group-hover:scale-110 transition-transform duration-1000 italic">IN</div>
+            <div class="space-y-8 relative z-10">
+                <div class="w-16 h-1 bg-blue-500 rounded-full mb-8 shadow-[0_0_20px_#3b82f6]"></div>
+                <h3 class="text-5xl font-black text-white uppercase italic tracking-tighter leading-tight mb-4">INDIA<br>MATRIX</h3>
+                <p class="text-slate-500 text-lg font-bold leading-relaxed max-w-xs italic opacity-70">NSE Multi-caps, Nifty 50 Dynamics, and Blue-chip Industry Nodes.</p>
+            </div>
+            <div class="mt-auto pt-10 border-t border-white/5 flex items-center justify-between relative z-10">
+                <span class="text-[9px] font-black text-blue-500 uppercase tracking-[0.4em]">CONNECT_NODE</span>
+                <div class="p-5 rounded-[2rem] bg-white/5 border border-white/5 text-blue-400 group-hover:bg-blue-500 group-hover:text-white transition-all duration-700 shadow-xl">
+                    →
+                </div>
+            </div>
+        </a>
+
+        <!-- Market News Hub -->
+        <a href="/news" class="glass p-16 rounded-[4rem] border-white/5 card-hover group flex flex-col relative overflow-hidden min-h-[500px] shadow-3xl">
+            <div class="absolute top-0 right-0 p-12 opacity-[0.03] text-[15rem] font-black group-hover:scale-110 transition-transform duration-1000 italic">AI</div>
+            <div class="space-y-8 relative z-10">
+                <div class="w-16 h-1 bg-emerald-400 rounded-full mb-8 shadow-[0_0_20px_#34d399]"></div>
+                <h3 class="text-5xl font-black text-white uppercase italic tracking-tighter leading-tight mb-4">MARKET<br>NEWS</h3>
+                <p class="text-slate-500 text-lg font-bold leading-relaxed max-w-xs italic opacity-70">Live Disclosures, Sentiment Analysis, and Breaking Macro Patterns.</p>
+            </div>
+            <div class="mt-auto pt-10 border-t border-white/5 flex items-center justify-between relative z-10">
+                <span class="text-[9px] font-black text-emerald-400 uppercase tracking-[0.4em]">WATCH_STREAM</span>
+                <div class="p-5 rounded-[2rem] bg-white/5 border border-white/5 text-emerald-400 group-hover:bg-emerald-500 group-hover:text-white transition-all duration-700 shadow-xl">
+                    →
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <!-- Grid Pulse Matrix -->
+    <section class="space-y-16">
+        <div class="flex items-center gap-8 px-6">
+            <h3 class="text-4xl font-black text-white uppercase italic tracking-[0.1em] opacity-80">LIVE_NETWORK_SCAN_V4</h3>
+            <div class="h-0.5 flex-grow bg-white/5 rounded-full"></div>
+            <div class="flex items-center gap-4">
+                <span class="w-2 h-2 bg-emerald-500 rounded-full animate-ping"></span>
+                <span class="text-[9px] font-black text-emerald-500 uppercase tracking-[0.4em] italic">SYNC_ACTIVE</span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {% for stock in stocks %}
+            <a href="/dashboard?ticker={{ stock.symbol }}" class="glass p-8 rounded-[2.5rem] border-white/5 card-hover group relative overflow-hidden bg-white/[0.01] shadow-2xl">
+                <div class="relative z-10 space-y-10">
+                    <div class="flex justify-between items-center">
+                        <h4 class="text-2xl font-black text-emerald-400 italic transition-transform group-hover:translate-x-2">{{ stock.symbol.split('.')[0] }}</h4>
+                        <span class="text-[9px] font-black px-3 py-1 bg-white/5 rounded-lg text-slate-700 italic uppercase">{{ stock.currency }}</span>
+                    </div>
+                    
+                    <div class="space-y-3">
+                        <p class="text-[10px] font-bold text-slate-500 uppercase tracking-widest truncate italic opacity-80 group-hover:opacity-100">{{ stock.name }}</p>
+                        <div class="flex items-baseline gap-4 pt-2">
+                            <span class="text-2xl font-black text-white italic tracking-tighter">
+                                {% if stock.currency == 'INR' %}₹{% else %}${% endif %}{{ "{:,.2f}".format(stock.price) }}
+                            </span>
+                            {% set sChange = stock.price - stock.prev_close %}
+                            {% set sChangePct = (sChange / stock.prev_close) * 100 %}
+                            <span class="text-[10px] font-black {{ 'text-emerald-500' if sChange >= 0 else 'text-rose-500' }} uppercase tracking-widest italic leading-none">
+                                {{ '▲' if sChange >= 0 else '▼' }} {{ sChangePct | round(2) }}%
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 pt-6 border-t border-white/5 flex items-center justify-between text-[9px] font-black text-slate-900 group-hover:text-emerald-400 transition-colors uppercase italic tracking-[0.2em]">
+                        DECRYPT_PROTOCOL
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transform group-hover:translate-x-3 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+
+</div>
+{% endblock %}

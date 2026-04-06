@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Premium Local Explorer - India Matrix -->
+<div class="max-w-7xl mx-auto space-y-40 py-12 animate-elite">
+    <!-- Institutional Header -->
+    <header class="text-center space-y-16 relative py-36 overflow-hidden bg-white/[0.01] rounded-[6rem] border border-white/5 shadow-3xl">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-30 blur-[150px] rounded-full scale-125"></div>
+        <div class="space-y-8 relative z-10 px-8">
+            <h1 class="hero-title tracking-tighter text-white overflow-hidden pb-10">
+                <span class="block">INDIA</span>
+                <span class="block text-gradient">MATRIX_EXPLORER</span>
+            </h1>
+            <p class="text-slate-500 text-xl md:text-2xl font-bold max-w-4xl mx-auto leading-relaxed italic opacity-70">
+                Scanning the 1,000+ most influential entities across the National Stock Exchange (NSE) and India's emerging industrial nodes.
+            </p>
+        </div>
+
+        <!-- India Search Terminal -->
+        <div class="max-w-2xl mx-auto relative z-10 pt-8 px-6">
+            <form action="/india" method="GET" class="relative group">
+                <div class="absolute inset-y-0 left-0 pl-8 flex items-center pointer-events-none transition-transform group-focus-within:scale-110 duration-700">
+                    <span class="text-xl font-black text-blue-500/30 tracking-tighter uppercase italic">IN_GATEWAY</span>
+                </div>
+                <input type="text" name="q" value="{{ query if query else '' }}" 
+                       placeholder="SCAN_NSE_DIRECTORY..." 
+                       class="bg-black/80 border border-white/10 rounded-2xl px-32 py-5 w-full focus:outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500/40 transition-all text-base font-black tracking-widest shadow-3xl placeholder:text-slate-800 uppercase italic">
+                <button type="submit" 
+                        class="absolute inset-y-3 right-3 bg-gradient-to-br from-blue-400 to-indigo-600 hover:scale-105 active:scale-95 text-white px-8 py-2 rounded-xl font-black transition-all shadow-2xl shadow-blue-500/40 uppercase tracking-widest italic text-[9px]">
+                    SCAN_CORE
+                </button>
+            </form>
+            
+            <div class="mt-8 flex flex-wrap justify-center gap-10 text-[9px] font-black uppercase tracking-[0.4em] text-slate-700 italic">
+                <span class="text-slate-600">POPULAR:</span>
+                <a href="/india?q=TATA" class="hover:text-blue-400 transition-all hover:scale-110">TATA</a>
+                <a href="/india?q=RELIANCE" class="hover:text-blue-400 transition-all hover:scale-110">RELIANCE</a>
+                <a href="/india?q=ADANI" class="hover:text-blue-400 transition-all hover:scale-110">ADANI</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Entities Grid Matrix -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        {% if stocks %}
+            {% for stock in stocks %}
+            <a href="/dashboard?ticker={{ stock.symbol }}" class="glass p-8 rounded-[2.5rem] border-white/5 card-hover group relative overflow-hidden bg-white/[0.01] shadow-2xl min-h-[280px] flex flex-col justify-between">
+                <div class="absolute -bottom-8 -right-8 p-8 opacity-[0.02] text-[8rem] font-black text-white italic group-hover:scale-110 transition-transform duration-1000">IN</div>
+                
+                <div class="space-y-6 relative z-10">
+                    <div class="flex justify-between items-start">
+                        <h4 class="font-black text-3xl text-blue-400 group-hover:translate-x-2 transition-transform tracking-tighter italic uppercase leading-none">{{ stock.symbol.split('.')[0] }}</h4>
+                        <div class="p-3 rounded-lg bg-white/5 border border-white/5 text-blue-400 group-hover:bg-blue-500 group-hover:text-white transition-all duration-700 shadow-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="space-y-1">
+                        <p class="text-white font-black leading-tight line-clamp-1 uppercase text-[10px] tracking-[0.2em] opacity-50 group-hover:opacity-80 transition-opacity italic">
+                            {{ stock.name }}
+                        </p>
+                        <div class="pt-4 flex items-baseline gap-4">
+                            <span class="text-2xl font-black text-white italic tracking-tighter">₹??.??</span>
+                            <span class="text-[9px] font-black text-blue-400 uppercase tracking-widest italic">PULSE_ACTIVE</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-8 pt-6 border-t border-white/5 flex items-center gap-3 text-[9px] font-black text-slate-900 group-hover:text-blue-400 transition-colors uppercase tracking-[0.3em] italic relative z-10">
+                    ANALYZE_NODE →
+                </div>
+            </a>
+            {% endfor %}
+        {% else %}
+            <div class="col-span-full py-72 text-center glass rounded-[7rem] border-white/5 relative overflow-hidden shadow-4xl">
+                <div class="absolute inset-0 bg-gradient-to-b from-rose-500/10 to-transparent opacity-20 blur-[200px] rounded-full scale-150"></div>
+                <div class="text-[20rem] opacity-[0.03] font-black italic tracking-tighter mb-10 relative z-10 uppercase">NULL</div>
+                <h3 class="text-6xl font-black text-white uppercase italic tracking-tighter relative z-10 mb-10">SIGNAL_LOST_IN_DIRECTORY</h3>
+                <p class="text-slate-500 text-3xl font-bold max-w-3xl mx-auto mb-20 relative z-10 italic leading-relaxed opacity-60">System failed to locate entities matching your current search sequence in the India Marketplace Registry.</p>
+                <a href="/india" class="bg-blue-500 text-white px-24 py-8 rounded-[4rem] font-black uppercase text-sm tracking-[0.5em] hover:scale-110 active:scale-95 transition-all shadow-4xl shadow-blue-500/40 italic relative z-10 inline-block">REBOOT_SCAN_PROTOCOL</a>
+            </div>
+        {% endif %}
+    </div>
+
+    {% if stocks|length >= 50 %}
+    <div class="text-center pt-32">
+        <div class="inline-block glass px-24 py-8 rounded-full border-white/5 text-slate-800 text-[12px] font-black uppercase tracking-[0.8em] italic animate-pulse">
+            DIRECTORY_THRESHOLD_MET • REFINE_SCAN_NODE
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

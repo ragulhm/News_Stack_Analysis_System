@@ -1,0 +1,231 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Institutional Dashboard - Ultra Dynamic Analytics -->
+<div class="max-w-7xl mx-auto space-y-24 py-12 animate-elite">
+    
+    <!-- Hero Quote Matrix -->
+    <section class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-end">
+        <div class="lg:col-span-7 space-y-10">
+            <div class="flex items-center gap-8">
+                <a href="/" class="p-5 rounded-3xl glass border-white/10 text-slate-500 hover:text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-500/20 transition-all duration-700 shadow-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                    </svg>
+                </a>
+                <h1 class="text-7xl md:text-9xl font-black tracking-tighter text-white uppercase italic leading-none overflow-hidden pb-4">
+                    {{ ticker_data.symbol.split('.')[0] }} 
+                </h1>
+                <div class="flex flex-col gap-2">
+                    <span class="px-4 py-2 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-black tracking-[0.3em] uppercase italic">
+                        {{ ticker_data.currency }} NODE
+                    </span>
+                    <span class="px-4 py-2 rounded-xl bg-blue-500/10 border border-blue-500/20 text-blue-400 text-[10px] font-black tracking-[0.3em] uppercase italic">
+                        SYNC_ACTIVE
+                    </span>
+                </div>
+            </div>
+            <h2 class="text-2xl md:text-3xl font-bold text-slate-500 tracking-tight pl-3 italic opacity-60">{{ ticker_data.name }}</h2>
+        </div>
+
+        <div class="lg:col-span-5">
+            <div class="glass p-12 rounded-[4rem] border-white/5 relative overflow-hidden group shadow-[0_40px_100px_-30px_rgba(0,0,0,0.8)]">
+                <div class="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-1000"></div>
+                
+                <div class="flex items-baseline justify-between gap-12 relative z-10">
+                    <div class="flex flex-col">
+                        <span class="text-slate-600 text-[10px] font-black uppercase tracking-[0.4em] mb-3 italic">Index_Realtime</span>
+                        <span class="text-7xl font-black text-white tracking-tighter neon-glow-emerald leading-tight italic">
+                            {% if ticker_data.currency == 'INR' %}₹{% else %}${% endif %}{{ "{:,.2f}".format(ticker_data.price) }}
+                        </span>
+                    </div>
+                    
+                    {% set change = ticker_data.price - ticker_data.prev_close %}
+                    {% set change_pct = (change / ticker_data.prev_close) * 100 %}
+                    <div class="flex flex-col items-end bg-black/60 p-6 rounded-[2.5rem] border border-white/5 backdrop-blur-3xl shadow-2xl">
+                        <span class="text-4xl font-black {{ 'neon-glow-emerald text-emerald-400' if change >= 0 else 'neon-glow-rose text-rose-400' }} italic">
+                            {{ '▲' if change >= 0 else '▼' }} {{ change_pct | round(2) }}%
+                        </span>
+                        <span class="text-[9px] font-black text-slate-700 uppercase tracking-widest mt-2 italic">QUANT_DELTA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Institutional Chart Suite -->
+    <section class="glass rounded-[5rem] border-white/10 overflow-hidden flex flex-col shadow-[0_50px_150px_-50px_rgba(0,0,0,0.9)] relative bg-black/40">
+        <div class="absolute top-0 right-0 p-12 opacity-[0.03] pointer-events-none">
+            <span class="text-[20rem] font-black text-white italic tracking-tighter">{{ ticker_data.symbol }}</span>
+        </div>
+
+        <!-- Header Controls -->
+        <div class="px-16 py-12 border-b border-white/5 flex flex-wrap justify-between items-center gap-12 relative z-10">
+            <div class="flex items-center gap-6">
+                <div class="w-4 h-4 bg-emerald-500 rounded-full animate-pulse shadow-[0_0_20px_#10b981]"></div>
+                <h3 class="text-sm font-black uppercase tracking-[0.5em] text-white italic">TRAJECTORY_PROTOCOL</h3>
+            </div>
+            
+            <div id="chart-controls" class="flex p-2.5 bg-black/70 rounded-[2rem] border border-white/10 shadow-3xl">
+                <button class="time-range-btn" data-period="1d" data-interval="5m">1D</button>
+                <button class="time-range-btn active" data-period="1mo" data-interval="1d">1M</button>
+                <button class="time-range-btn" data-period="6mo" data-interval="1d">6M</button>
+                <button class="time-range-btn" data-period="1y" data-interval="1wk">1Y</button>
+                <button class="time-range-btn" data-period="max" data-interval="1mo">ALL</button>
+            </div>
+        </div>
+
+        <!-- Chart Space -->
+        <div class="p-10 relative z-10">
+            <!-- Intelligent OHLC TIP -->
+            <div id="ohlc-info" class="absolute top-14 left-16 pointer-events-none z-20 font-black flex flex-wrap gap-12 text-[10px] tracking-[0.3em] text-slate-700 uppercase italic">
+                <div class="flex gap-3">OPEN <span id="val-open" class="text-white">-</span></div>
+                <div class="flex gap-3">HIGH <span id="val-high" class="text-emerald-400">-</span></div>
+                <div class="flex gap-3">LOW <span id="val-low" class="text-rose-400">-</span></div>
+                <div class="flex gap-3">CLOSE <span id="val-close" class="text-white">-</span></div>
+                <div class="flex gap-3">VOL <span id="val-vol" class="text-blue-500">-</span></div>
+            </div>
+
+            <div id="tradingview-chart" class="w-full h-[650px] rounded-[3rem] overflow-hidden"></div>
+        </div>
+    </section>
+
+    <!-- Fundamental Pods -->
+    <section class="grid grid-cols-1 lg:grid-cols-4 gap-12">
+        <div class="lg:col-span-1 grid grid-cols-1 gap-8">
+            <div class="glass p-12 rounded-[3.5rem] border-white/5 space-y-4 card-hover shadow-2xl flex flex-col justify-center">
+                <p class="text-slate-700 text-[10px] font-black uppercase tracking-[0.4em] italic mb-2">Market Cap</p>
+                <p class="text-4xl font-black text-white italic tracking-tighter">{% if ticker_data.market_cap %}{{ "{:,.0f}".format(ticker_data.market_cap / 1000000000) }}B{% else %}N/A{% endif %}</p>
+                <div class="w-10 h-1 bg-emerald-500 rounded-full opacity-30"></div>
+            </div>
+            <div class="glass p-12 rounded-[3.5rem] border-white/5 space-y-4 card-hover shadow-2xl flex flex-col justify-center">
+                <p class="text-slate-700 text-[10px] font-black uppercase tracking-[0.4em] italic mb-2">PE_RATIO</p>
+                <p class="text-4xl font-black text-white italic tracking-tighter">{{ ticker_data.pe_ratio | round(2) if ticker_data.pe_ratio else 'LISTED' }}</p>
+                <div class="w-10 h-1 bg-blue-500 rounded-full opacity-30"></div>
+            </div>
+            <div class="glass p-12 rounded-[3.5rem] border-white/5 space-y-4 card-hover shadow-2xl flex flex-col justify-center">
+                <p class="text-slate-700 text-[10px] font-black uppercase tracking-[0.4em] italic mb-2">AVG_VOLUME</p>
+                <p class="text-4xl font-black text-white italic tracking-tighter">{{ "{:,.0f}".format(ticker_data.volume / 1000000) }}M</p>
+                <div class="w-10 h-1 bg-white/20 rounded-full opacity-30"></div>
+            </div>
+        </div>
+
+        <div class="lg:col-span-3 glass p-16 rounded-[4.5rem] border-white/5 relative overflow-hidden group shadow-3xl flex flex-col">
+            <div class="flex flex-col gap-12">
+                <h3 class="text-4xl font-black text-white uppercase italic tracking-tighter flex items-center gap-8">
+                    <span class="w-16 h-1 bg-emerald-500 rounded-full shadow-[0_0_20px_#10b981]"></span>
+                    Company_Profile
+                </h3>
+                <p class="text-slate-400 text-2xl leading-relaxed font-bold opacity-80 group-hover:opacity-100 transition-opacity duration-1000 italic">
+                    {{ ticker_data.summary }}
+                </p>
+                <div class="pt-10 border-t border-white/5 flex flex-wrap gap-16 text-[11px] font-black text-slate-700 uppercase tracking-widest italic">
+                    <div class="flex gap-3">SECTOR: <span class="text-slate-300">TECHNOLOGY_MESH</span></div>
+                    <div class="flex gap-3">STATUS: <span class="text-emerald-500">LIVE_TRACKING</span></div>
+                    <div class="flex gap-3">GATEWAY: <span class="text-blue-500">SEC_STOCKSCOPE</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market News Stream -->
+    {% if articles %}
+    <section class="space-y-16">
+        <div class="flex items-center gap-8 px-6">
+            <h3 class="text-4xl font-black text-white uppercase italic tracking-tighter">MARKET_NEWS</h3>
+            <div class="h-0.5 flex-grow bg-white/5 rounded-full"></div>
+            <span class="text-[10px] font-black text-emerald-500 uppercase tracking-[0.5em] animate-pulse">STREAM_LIVE</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            {% for article in articles %}
+            <article class="glass p-12 rounded-[4rem] border-white/5 space-y-10 card-hover relative group cursor-pointer shadow-2xl" onclick="window.open('{{ article.url }}', '_blank')">
+                <div class="flex items-center justify-between">
+                    <span class="px-4 py-2 rounded-xl bg-blue-500/10 border border-blue-500/20 text-[10px] font-black text-blue-400 uppercase tracking-widest italic">{{ article.source }}</span>
+                    <span class="text-slate-700 text-[10px] font-bold uppercase tracking-widest">{{ article.publishedAt[:10] }}</span>
+                </div>
+                <h4 class="text-3xl font-black leading-tight text-white group-hover:text-emerald-400 transition-colors uppercase italic tracking-tighter">
+                    {{ article.title }}
+                </h4>
+                <div class="pt-8 border-t border-white/5 flex items-center justify-between text-[11px] font-black text-emerald-400 uppercase tracking-[0.4em] group-hover:translate-x-4 transition-transform italic">
+                    DECRYPT_TRANSCRIPT
+                    <div class="p-5 rounded-3xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 group-hover:bg-emerald-500 group-hover:text-white transition-all duration-700">
+                        →
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+
+</div>
+
+<script src="{{ url_for('static', path='/charts.js') }}"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const initialOhlc = {{ ticker_data.ohlc | tojson }};
+        const currentSymbol = "{{ ticker_data.symbol }}";
+        const chartManager = window.initStockChart('tradingview-chart', initialOhlc);
+
+        if (!chartManager) return;
+
+        const rangeBtns = document.querySelectorAll('.time-range-btn');
+        rangeBtns.forEach(btn => {
+            btn.addEventListener('click', async () => {
+                rangeBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                const period = btn.dataset.period;
+                const interval = btn.dataset.interval;
+                
+                document.getElementById('tradingview-chart').style.opacity = '0.3';
+                await chartManager.updateRange(currentSymbol, period, interval);
+                document.getElementById('tradingview-chart').style.opacity = '1';
+            });
+        });
+
+        chartManager.chart.subscribeCrosshairMove(param => {
+            if (param.time && param.point) {
+                const data = param.seriesData.get(chartManager.series);
+                const volume = param.seriesData.get(chartManager.volumeSeries);
+                
+                if (data) {
+                    document.getElementById('val-open').innerText = data.open.toFixed(2);
+                    document.getElementById('val-high').innerText = data.high.toFixed(2);
+                    document.getElementById('val-low').innerText = data.low.toFixed(2);
+                    document.getElementById('val-close').innerText = data.close.toFixed(2);
+                    if (volume) document.getElementById('val-vol').innerText = (volume.value / 1000).toFixed(1) + 'K';
+                }
+            }
+        });
+    });
+</script>
+
+<style>
+    .time-range-btn {
+        padding: 0.75rem 1.5rem;
+        border-radius: 1.25rem;
+        font-size: 11px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        border: 1px solid transparent;
+        color: #4b5563;
+        font-style: italic;
+    }
+    .time-range-btn.active {
+        background-color: #10b981;
+        color: white;
+        box-shadow: 0 10px 30px rgba(16, 185, 129, 0.4);
+        border-color: rgba(16, 185, 129, 0.5);
+        transform: scale(1.1);
+    }
+    .time-range-btn:not(.active):hover {
+        color: #10b981;
+        background-color: rgba(255, 255, 255, 0.05);
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+</style>
+{% endblock %}

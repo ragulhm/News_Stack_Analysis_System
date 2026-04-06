@@ -1,0 +1,4002 @@
+[
+  {
+    "name": "3M",
+    "symbol": "MMM"
+  },
+  {
+    "name": "A. O. Smith",
+    "symbol": "AOS"
+  },
+  {
+    "name": "Abbott Laboratories",
+    "symbol": "ABT"
+  },
+  {
+    "name": "AbbVie",
+    "symbol": "ABBV"
+  },
+  {
+    "name": "Accenture",
+    "symbol": "ACN"
+  },
+  {
+    "name": "Adobe Inc.",
+    "symbol": "ADBE"
+  },
+  {
+    "name": "Advanced Micro Devices",
+    "symbol": "AMD"
+  },
+  {
+    "name": "AES Corporation",
+    "symbol": "AES"
+  },
+  {
+    "name": "Aflac",
+    "symbol": "AFL"
+  },
+  {
+    "name": "Agilent Technologies",
+    "symbol": "A"
+  },
+  {
+    "name": "Air Products",
+    "symbol": "APD"
+  },
+  {
+    "name": "Airbnb",
+    "symbol": "ABNB"
+  },
+  {
+    "name": "Akamai Technologies",
+    "symbol": "AKAM"
+  },
+  {
+    "name": "Albemarle Corporation",
+    "symbol": "ALB"
+  },
+  {
+    "name": "Alexandria Real Estate Equities",
+    "symbol": "ARE"
+  },
+  {
+    "name": "Align Technology",
+    "symbol": "ALGN"
+  },
+  {
+    "name": "Allegion",
+    "symbol": "ALLE"
+  },
+  {
+    "name": "Alliant Energy",
+    "symbol": "LNT"
+  },
+  {
+    "name": "Allstate",
+    "symbol": "ALL"
+  },
+  {
+    "name": "Alphabet Inc. (Class A)",
+    "symbol": "GOOGL"
+  },
+  {
+    "name": "Alphabet Inc. (Class C)",
+    "symbol": "GOOG"
+  },
+  {
+    "name": "Altria",
+    "symbol": "MO"
+  },
+  {
+    "name": "Amazon",
+    "symbol": "AMZN"
+  },
+  {
+    "name": "Amcor",
+    "symbol": "AMCR"
+  },
+  {
+    "name": "Ameren",
+    "symbol": "AEE"
+  },
+  {
+    "name": "American Electric Power",
+    "symbol": "AEP"
+  },
+  {
+    "name": "American Express",
+    "symbol": "AXP"
+  },
+  {
+    "name": "American International Group",
+    "symbol": "AIG"
+  },
+  {
+    "name": "American Tower",
+    "symbol": "AMT"
+  },
+  {
+    "name": "American Water Works",
+    "symbol": "AWK"
+  },
+  {
+    "name": "Ameriprise Financial",
+    "symbol": "AMP"
+  },
+  {
+    "name": "Ametek",
+    "symbol": "AME"
+  },
+  {
+    "name": "Amgen",
+    "symbol": "AMGN"
+  },
+  {
+    "name": "Amphenol",
+    "symbol": "APH"
+  },
+  {
+    "name": "Analog Devices",
+    "symbol": "ADI"
+  },
+  {
+    "name": "Aon plc",
+    "symbol": "AON"
+  },
+  {
+    "name": "APA Corporation",
+    "symbol": "APA"
+  },
+  {
+    "name": "Apollo Global Management",
+    "symbol": "APO"
+  },
+  {
+    "name": "Apple Inc.",
+    "symbol": "AAPL"
+  },
+  {
+    "name": "Applied Materials",
+    "symbol": "AMAT"
+  },
+  {
+    "name": "AppLovin",
+    "symbol": "APP"
+  },
+  {
+    "name": "Aptiv",
+    "symbol": "APTV"
+  },
+  {
+    "name": "Arch Capital Group",
+    "symbol": "ACGL"
+  },
+  {
+    "name": "Archer Daniels Midland",
+    "symbol": "ADM"
+  },
+  {
+    "name": "Ares Management",
+    "symbol": "ARES"
+  },
+  {
+    "name": "Arista Networks",
+    "symbol": "ANET"
+  },
+  {
+    "name": "Arthur J. Gallagher & Co.",
+    "symbol": "AJG"
+  },
+  {
+    "name": "Assurant",
+    "symbol": "AIZ"
+  },
+  {
+    "name": "AT&T",
+    "symbol": "T"
+  },
+  {
+    "name": "Atmos Energy",
+    "symbol": "ATO"
+  },
+  {
+    "name": "Autodesk",
+    "symbol": "ADSK"
+  },
+  {
+    "name": "Automatic Data Processing",
+    "symbol": "ADP"
+  },
+  {
+    "name": "AutoZone",
+    "symbol": "AZO"
+  },
+  {
+    "name": "AvalonBay Communities",
+    "symbol": "AVB"
+  },
+  {
+    "name": "Avery Dennison",
+    "symbol": "AVY"
+  },
+  {
+    "name": "Axon Enterprise",
+    "symbol": "AXON"
+  },
+  {
+    "name": "Baker Hughes",
+    "symbol": "BKR"
+  },
+  {
+    "name": "Ball Corporation",
+    "symbol": "BALL"
+  },
+  {
+    "name": "Bank of America",
+    "symbol": "BAC"
+  },
+  {
+    "name": "Baxter International",
+    "symbol": "BAX"
+  },
+  {
+    "name": "Becton Dickinson",
+    "symbol": "BDX"
+  },
+  {
+    "name": "Berkshire Hathaway",
+    "symbol": "BRK.B"
+  },
+  {
+    "name": "Best Buy",
+    "symbol": "BBY"
+  },
+  {
+    "name": "Bio-Techne",
+    "symbol": "TECH"
+  },
+  {
+    "name": "Biogen",
+    "symbol": "BIIB"
+  },
+  {
+    "name": "BlackRock",
+    "symbol": "BLK"
+  },
+  {
+    "name": "Blackstone Inc.",
+    "symbol": "BX"
+  },
+  {
+    "name": "Block, Inc.",
+    "symbol": "XYZ"
+  },
+  {
+    "name": "BNY Mellon",
+    "symbol": "BK"
+  },
+  {
+    "name": "Boeing",
+    "symbol": "BA"
+  },
+  {
+    "name": "Booking Holdings",
+    "symbol": "BKNG"
+  },
+  {
+    "name": "Boston Scientific",
+    "symbol": "BSX"
+  },
+  {
+    "name": "Bristol Myers Squibb",
+    "symbol": "BMY"
+  },
+  {
+    "name": "Broadcom",
+    "symbol": "AVGO"
+  },
+  {
+    "name": "Broadridge Financial Solutions",
+    "symbol": "BR"
+  },
+  {
+    "name": "Brown & Brown",
+    "symbol": "BRO"
+  },
+  {
+    "name": "Brown\u00e2\u20ac\u201cForman",
+    "symbol": "BF.B"
+  },
+  {
+    "name": "Builders FirstSource",
+    "symbol": "BLDR"
+  },
+  {
+    "name": "Bunge Global",
+    "symbol": "BG"
+  },
+  {
+    "name": "BXP, Inc.",
+    "symbol": "BXP"
+  },
+  {
+    "name": "C.H. Robinson",
+    "symbol": "CHRW"
+  },
+  {
+    "name": "Cadence Design Systems",
+    "symbol": "CDNS"
+  },
+  {
+    "name": "Camden Property Trust",
+    "symbol": "CPT"
+  },
+  {
+    "name": "Campbell's Company (The)",
+    "symbol": "CPB"
+  },
+  {
+    "name": "Capital One",
+    "symbol": "COF"
+  },
+  {
+    "name": "Cardinal Health",
+    "symbol": "CAH"
+  },
+  {
+    "name": "Carnival",
+    "symbol": "CCL"
+  },
+  {
+    "name": "Carrier Global",
+    "symbol": "CARR"
+  },
+  {
+    "name": "Carvana",
+    "symbol": "CVNA"
+  },
+  {
+    "name": "Caterpillar Inc.",
+    "symbol": "CAT"
+  },
+  {
+    "name": "Cboe Global Markets",
+    "symbol": "CBOE"
+  },
+  {
+    "name": "CBRE Group",
+    "symbol": "CBRE"
+  },
+  {
+    "name": "CDW Corporation",
+    "symbol": "CDW"
+  },
+  {
+    "name": "Cencora",
+    "symbol": "COR"
+  },
+  {
+    "name": "Centene Corporation",
+    "symbol": "CNC"
+  },
+  {
+    "name": "CenterPoint Energy",
+    "symbol": "CNP"
+  },
+  {
+    "name": "CF Industries",
+    "symbol": "CF"
+  },
+  {
+    "name": "Charles River Laboratories",
+    "symbol": "CRL"
+  },
+  {
+    "name": "Charles Schwab Corporation",
+    "symbol": "SCHW"
+  },
+  {
+    "name": "Charter Communications",
+    "symbol": "CHTR"
+  },
+  {
+    "name": "Chevron Corporation",
+    "symbol": "CVX"
+  },
+  {
+    "name": "Chipotle Mexican Grill",
+    "symbol": "CMG"
+  },
+  {
+    "name": "Chubb Limited",
+    "symbol": "CB"
+  },
+  {
+    "name": "Church & Dwight",
+    "symbol": "CHD"
+  },
+  {
+    "name": "Ciena",
+    "symbol": "CIEN"
+  },
+  {
+    "name": "Cigna",
+    "symbol": "CI"
+  },
+  {
+    "name": "Cincinnati Financial",
+    "symbol": "CINF"
+  },
+  {
+    "name": "Cintas",
+    "symbol": "CTAS"
+  },
+  {
+    "name": "Cisco",
+    "symbol": "CSCO"
+  },
+  {
+    "name": "Citigroup",
+    "symbol": "C"
+  },
+  {
+    "name": "Citizens Financial Group",
+    "symbol": "CFG"
+  },
+  {
+    "name": "Clorox",
+    "symbol": "CLX"
+  },
+  {
+    "name": "CME Group",
+    "symbol": "CME"
+  },
+  {
+    "name": "CMS Energy",
+    "symbol": "CMS"
+  },
+  {
+    "name": "Coca-Cola Company (The)",
+    "symbol": "KO"
+  },
+  {
+    "name": "Cognizant",
+    "symbol": "CTSH"
+  },
+  {
+    "name": "Coherent Corp.",
+    "symbol": "COHR"
+  },
+  {
+    "name": "Coinbase",
+    "symbol": "COIN"
+  },
+  {
+    "name": "Colgate-Palmolive",
+    "symbol": "CL"
+  },
+  {
+    "name": "Comcast",
+    "symbol": "CMCSA"
+  },
+  {
+    "name": "Comfort Systems USA",
+    "symbol": "FIX"
+  },
+  {
+    "name": "Conagra Brands",
+    "symbol": "CAG"
+  },
+  {
+    "name": "ConocoPhillips",
+    "symbol": "COP"
+  },
+  {
+    "name": "Consolidated Edison",
+    "symbol": "ED"
+  },
+  {
+    "name": "Constellation Brands",
+    "symbol": "STZ"
+  },
+  {
+    "name": "Constellation Energy",
+    "symbol": "CEG"
+  },
+  {
+    "name": "Cooper Companies (The)",
+    "symbol": "COO"
+  },
+  {
+    "name": "Copart",
+    "symbol": "CPRT"
+  },
+  {
+    "name": "Corning Inc.",
+    "symbol": "GLW"
+  },
+  {
+    "name": "Corpay",
+    "symbol": "CPAY"
+  },
+  {
+    "name": "Corteva",
+    "symbol": "CTVA"
+  },
+  {
+    "name": "CoStar Group",
+    "symbol": "CSGP"
+  },
+  {
+    "name": "Costco",
+    "symbol": "COST"
+  },
+  {
+    "name": "Coterra",
+    "symbol": "CTRA"
+  },
+  {
+    "name": "CRH plc",
+    "symbol": "CRH"
+  },
+  {
+    "name": "CrowdStrike",
+    "symbol": "CRWD"
+  },
+  {
+    "name": "Crown Castle",
+    "symbol": "CCI"
+  },
+  {
+    "name": "CSX Corporation",
+    "symbol": "CSX"
+  },
+  {
+    "name": "Cummins",
+    "symbol": "CMI"
+  },
+  {
+    "name": "CVS Health",
+    "symbol": "CVS"
+  },
+  {
+    "name": "Danaher Corporation",
+    "symbol": "DHR"
+  },
+  {
+    "name": "Darden Restaurants",
+    "symbol": "DRI"
+  },
+  {
+    "name": "Datadog",
+    "symbol": "DDOG"
+  },
+  {
+    "name": "DaVita",
+    "symbol": "DVA"
+  },
+  {
+    "name": "Deckers Brands",
+    "symbol": "DECK"
+  },
+  {
+    "name": "Deere & Company",
+    "symbol": "DE"
+  },
+  {
+    "name": "Dell Technologies",
+    "symbol": "DELL"
+  },
+  {
+    "name": "Delta Air Lines",
+    "symbol": "DAL"
+  },
+  {
+    "name": "Devon Energy",
+    "symbol": "DVN"
+  },
+  {
+    "name": "Dexcom",
+    "symbol": "DXCM"
+  },
+  {
+    "name": "Diamondback Energy",
+    "symbol": "FANG"
+  },
+  {
+    "name": "Digital Realty",
+    "symbol": "DLR"
+  },
+  {
+    "name": "Dollar General",
+    "symbol": "DG"
+  },
+  {
+    "name": "Dollar Tree",
+    "symbol": "DLTR"
+  },
+  {
+    "name": "Dominion Energy",
+    "symbol": "D"
+  },
+  {
+    "name": "Domino's",
+    "symbol": "DPZ"
+  },
+  {
+    "name": "DoorDash",
+    "symbol": "DASH"
+  },
+  {
+    "name": "Dover Corporation",
+    "symbol": "DOV"
+  },
+  {
+    "name": "Dow Inc.",
+    "symbol": "DOW"
+  },
+  {
+    "name": "D. R. Horton",
+    "symbol": "DHI"
+  },
+  {
+    "name": "DTE Energy",
+    "symbol": "DTE"
+  },
+  {
+    "name": "Duke Energy",
+    "symbol": "DUK"
+  },
+  {
+    "name": "DuPont",
+    "symbol": "DD"
+  },
+  {
+    "name": "Eaton Corporation",
+    "symbol": "ETN"
+  },
+  {
+    "name": "eBay Inc.",
+    "symbol": "EBAY"
+  },
+  {
+    "name": "EchoStar",
+    "symbol": "SATS"
+  },
+  {
+    "name": "Ecolab",
+    "symbol": "ECL"
+  },
+  {
+    "name": "Edison International",
+    "symbol": "EIX"
+  },
+  {
+    "name": "Edwards Lifesciences",
+    "symbol": "EW"
+  },
+  {
+    "name": "Electronic Arts",
+    "symbol": "EA"
+  },
+  {
+    "name": "Elevance Health",
+    "symbol": "ELV"
+  },
+  {
+    "name": "Emcor",
+    "symbol": "EME"
+  },
+  {
+    "name": "Emerson Electric",
+    "symbol": "EMR"
+  },
+  {
+    "name": "Entergy",
+    "symbol": "ETR"
+  },
+  {
+    "name": "EOG Resources",
+    "symbol": "EOG"
+  },
+  {
+    "name": "EPAM Systems",
+    "symbol": "EPAM"
+  },
+  {
+    "name": "EQT Corporation",
+    "symbol": "EQT"
+  },
+  {
+    "name": "Equifax",
+    "symbol": "EFX"
+  },
+  {
+    "name": "Equinix",
+    "symbol": "EQIX"
+  },
+  {
+    "name": "Equity Residential",
+    "symbol": "EQR"
+  },
+  {
+    "name": "Erie Indemnity",
+    "symbol": "ERIE"
+  },
+  {
+    "name": "Essex Property Trust",
+    "symbol": "ESS"
+  },
+  {
+    "name": "Est\u00c3\u00a9e Lauder Companies (The)",
+    "symbol": "EL"
+  },
+  {
+    "name": "Everest Group",
+    "symbol": "EG"
+  },
+  {
+    "name": "Evergy",
+    "symbol": "EVRG"
+  },
+  {
+    "name": "Eversource Energy",
+    "symbol": "ES"
+  },
+  {
+    "name": "Exelon",
+    "symbol": "EXC"
+  },
+  {
+    "name": "Expand Energy",
+    "symbol": "EXE"
+  },
+  {
+    "name": "Expedia Group",
+    "symbol": "EXPE"
+  },
+  {
+    "name": "Expeditors International",
+    "symbol": "EXPD"
+  },
+  {
+    "name": "Extra Space Storage",
+    "symbol": "EXR"
+  },
+  {
+    "name": "ExxonMobil",
+    "symbol": "XOM"
+  },
+  {
+    "name": "F5, Inc.",
+    "symbol": "FFIV"
+  },
+  {
+    "name": "FactSet",
+    "symbol": "FDS"
+  },
+  {
+    "name": "Fair Isaac",
+    "symbol": "FICO"
+  },
+  {
+    "name": "Fastenal",
+    "symbol": "FAST"
+  },
+  {
+    "name": "Federal Realty Investment Trust",
+    "symbol": "FRT"
+  },
+  {
+    "name": "FedEx",
+    "symbol": "FDX"
+  },
+  {
+    "name": "Fidelity National Information Services",
+    "symbol": "FIS"
+  },
+  {
+    "name": "Fifth Third Bancorp",
+    "symbol": "FITB"
+  },
+  {
+    "name": "First Solar",
+    "symbol": "FSLR"
+  },
+  {
+    "name": "FirstEnergy",
+    "symbol": "FE"
+  },
+  {
+    "name": "Fiserv",
+    "symbol": "FISV"
+  },
+  {
+    "name": "Ford Motor Company",
+    "symbol": "F"
+  },
+  {
+    "name": "Fortinet",
+    "symbol": "FTNT"
+  },
+  {
+    "name": "Fortive",
+    "symbol": "FTV"
+  },
+  {
+    "name": "Fox Corporation (Class A)",
+    "symbol": "FOXA"
+  },
+  {
+    "name": "Fox Corporation (Class B)",
+    "symbol": "FOX"
+  },
+  {
+    "name": "Franklin Resources",
+    "symbol": "BEN"
+  },
+  {
+    "name": "Freeport-McMoRan",
+    "symbol": "FCX"
+  },
+  {
+    "name": "Garmin",
+    "symbol": "GRMN"
+  },
+  {
+    "name": "Gartner",
+    "symbol": "IT"
+  },
+  {
+    "name": "GE Aerospace",
+    "symbol": "GE"
+  },
+  {
+    "name": "GE HealthCare",
+    "symbol": "GEHC"
+  },
+  {
+    "name": "GE Vernova",
+    "symbol": "GEV"
+  },
+  {
+    "name": "Gen Digital",
+    "symbol": "GEN"
+  },
+  {
+    "name": "Generac",
+    "symbol": "GNRC"
+  },
+  {
+    "name": "General Dynamics",
+    "symbol": "GD"
+  },
+  {
+    "name": "General Mills",
+    "symbol": "GIS"
+  },
+  {
+    "name": "General Motors",
+    "symbol": "GM"
+  },
+  {
+    "name": "Genuine Parts Company",
+    "symbol": "GPC"
+  },
+  {
+    "name": "Gilead Sciences",
+    "symbol": "GILD"
+  },
+  {
+    "name": "Global Payments",
+    "symbol": "GPN"
+  },
+  {
+    "name": "Globe Life",
+    "symbol": "GL"
+  },
+  {
+    "name": "GoDaddy",
+    "symbol": "GDDY"
+  },
+  {
+    "name": "Goldman Sachs",
+    "symbol": "GS"
+  },
+  {
+    "name": "Halliburton",
+    "symbol": "HAL"
+  },
+  {
+    "name": "Hartford (The)",
+    "symbol": "HIG"
+  },
+  {
+    "name": "Hasbro",
+    "symbol": "HAS"
+  },
+  {
+    "name": "HCA Healthcare",
+    "symbol": "HCA"
+  },
+  {
+    "name": "Healthpeak Properties",
+    "symbol": "DOC"
+  },
+  {
+    "name": "Henry Schein",
+    "symbol": "HSIC"
+  },
+  {
+    "name": "Hershey Company (The)",
+    "symbol": "HSY"
+  },
+  {
+    "name": "Hewlett Packard Enterprise",
+    "symbol": "HPE"
+  },
+  {
+    "name": "Hilton Worldwide",
+    "symbol": "HLT"
+  },
+  {
+    "name": "Hologic",
+    "symbol": "HOLX"
+  },
+  {
+    "name": "Home Depot (The)",
+    "symbol": "HD"
+  },
+  {
+    "name": "Honeywell",
+    "symbol": "HON"
+  },
+  {
+    "name": "Hormel Foods",
+    "symbol": "HRL"
+  },
+  {
+    "name": "Host Hotels & Resorts",
+    "symbol": "HST"
+  },
+  {
+    "name": "Howmet Aerospace",
+    "symbol": "HWM"
+  },
+  {
+    "name": "HP Inc.",
+    "symbol": "HPQ"
+  },
+  {
+    "name": "Hubbell Incorporated",
+    "symbol": "HUBB"
+  },
+  {
+    "name": "Humana",
+    "symbol": "HUM"
+  },
+  {
+    "name": "Huntington Bancshares",
+    "symbol": "HBAN"
+  },
+  {
+    "name": "Huntington Ingalls Industries",
+    "symbol": "HII"
+  },
+  {
+    "name": "IBM",
+    "symbol": "IBM"
+  },
+  {
+    "name": "IDEX Corporation",
+    "symbol": "IEX"
+  },
+  {
+    "name": "Idexx Laboratories",
+    "symbol": "IDXX"
+  },
+  {
+    "name": "Illinois Tool Works",
+    "symbol": "ITW"
+  },
+  {
+    "name": "Incyte",
+    "symbol": "INCY"
+  },
+  {
+    "name": "Ingersoll Rand",
+    "symbol": "IR"
+  },
+  {
+    "name": "Insulet Corporation",
+    "symbol": "PODD"
+  },
+  {
+    "name": "Intel",
+    "symbol": "INTC"
+  },
+  {
+    "name": "Interactive Brokers",
+    "symbol": "IBKR"
+  },
+  {
+    "name": "Intercontinental Exchange",
+    "symbol": "ICE"
+  },
+  {
+    "name": "International Flavors & Fragrances",
+    "symbol": "IFF"
+  },
+  {
+    "name": "International Paper",
+    "symbol": "IP"
+  },
+  {
+    "name": "Intuit",
+    "symbol": "INTU"
+  },
+  {
+    "name": "Intuitive Surgical",
+    "symbol": "ISRG"
+  },
+  {
+    "name": "Invesco",
+    "symbol": "IVZ"
+  },
+  {
+    "name": "Invitation Homes",
+    "symbol": "INVH"
+  },
+  {
+    "name": "IQVIA",
+    "symbol": "IQV"
+  },
+  {
+    "name": "Iron Mountain",
+    "symbol": "IRM"
+  },
+  {
+    "name": "J.B. Hunt",
+    "symbol": "JBHT"
+  },
+  {
+    "name": "Jabil",
+    "symbol": "JBL"
+  },
+  {
+    "name": "Jack Henry & Associates",
+    "symbol": "JKHY"
+  },
+  {
+    "name": "Jacobs Solutions",
+    "symbol": "J"
+  },
+  {
+    "name": "Johnson & Johnson",
+    "symbol": "JNJ"
+  },
+  {
+    "name": "Johnson Controls",
+    "symbol": "JCI"
+  },
+  {
+    "name": "JPMorgan Chase",
+    "symbol": "JPM"
+  },
+  {
+    "name": "Kenvue",
+    "symbol": "KVUE"
+  },
+  {
+    "name": "Keurig Dr Pepper",
+    "symbol": "KDP"
+  },
+  {
+    "name": "KeyCorp",
+    "symbol": "KEY"
+  },
+  {
+    "name": "Keysight Technologies",
+    "symbol": "KEYS"
+  },
+  {
+    "name": "Kimberly-Clark",
+    "symbol": "KMB"
+  },
+  {
+    "name": "Kimco Realty",
+    "symbol": "KIM"
+  },
+  {
+    "name": "Kinder Morgan",
+    "symbol": "KMI"
+  },
+  {
+    "name": "KKR & Co.",
+    "symbol": "KKR"
+  },
+  {
+    "name": "KLA Corporation",
+    "symbol": "KLAC"
+  },
+  {
+    "name": "Kraft Heinz",
+    "symbol": "KHC"
+  },
+  {
+    "name": "Kroger",
+    "symbol": "KR"
+  },
+  {
+    "name": "L3Harris",
+    "symbol": "LHX"
+  },
+  {
+    "name": "Labcorp",
+    "symbol": "LH"
+  },
+  {
+    "name": "Lam Research",
+    "symbol": "LRCX"
+  },
+  {
+    "name": "Las Vegas Sands",
+    "symbol": "LVS"
+  },
+  {
+    "name": "Leidos",
+    "symbol": "LDOS"
+  },
+  {
+    "name": "Lennar",
+    "symbol": "LEN"
+  },
+  {
+    "name": "Lennox International",
+    "symbol": "LII"
+  },
+  {
+    "name": "Lilly (Eli)",
+    "symbol": "LLY"
+  },
+  {
+    "name": "Linde plc",
+    "symbol": "LIN"
+  },
+  {
+    "name": "Live Nation Entertainment",
+    "symbol": "LYV"
+  },
+  {
+    "name": "Lockheed Martin",
+    "symbol": "LMT"
+  },
+  {
+    "name": "Loews Corporation",
+    "symbol": "L"
+  },
+  {
+    "name": "Lowe's",
+    "symbol": "LOW"
+  },
+  {
+    "name": "Lululemon Athletica",
+    "symbol": "LULU"
+  },
+  {
+    "name": "Lumentum",
+    "symbol": "LITE"
+  },
+  {
+    "name": "LyondellBasell",
+    "symbol": "LYB"
+  },
+  {
+    "name": "M&T Bank",
+    "symbol": "MTB"
+  },
+  {
+    "name": "Marathon Petroleum",
+    "symbol": "MPC"
+  },
+  {
+    "name": "Marriott International",
+    "symbol": "MAR"
+  },
+  {
+    "name": "Marsh McLennan",
+    "symbol": "MRSH"
+  },
+  {
+    "name": "Martin Marietta Materials",
+    "symbol": "MLM"
+  },
+  {
+    "name": "Masco",
+    "symbol": "MAS"
+  },
+  {
+    "name": "Mastercard",
+    "symbol": "MA"
+  },
+  {
+    "name": "McCormick & Company",
+    "symbol": "MKC"
+  },
+  {
+    "name": "McDonald's",
+    "symbol": "MCD"
+  },
+  {
+    "name": "McKesson Corporation",
+    "symbol": "MCK"
+  },
+  {
+    "name": "Medtronic",
+    "symbol": "MDT"
+  },
+  {
+    "name": "Merck & Co.",
+    "symbol": "MRK"
+  },
+  {
+    "name": "Meta Platforms",
+    "symbol": "META"
+  },
+  {
+    "name": "MetLife",
+    "symbol": "MET"
+  },
+  {
+    "name": "Mettler Toledo",
+    "symbol": "MTD"
+  },
+  {
+    "name": "MGM Resorts",
+    "symbol": "MGM"
+  },
+  {
+    "name": "Microchip Technology",
+    "symbol": "MCHP"
+  },
+  {
+    "name": "Micron Technology",
+    "symbol": "MU"
+  },
+  {
+    "name": "Microsoft",
+    "symbol": "MSFT"
+  },
+  {
+    "name": "Mid-America Apartment Communities",
+    "symbol": "MAA"
+  },
+  {
+    "name": "Moderna",
+    "symbol": "MRNA"
+  },
+  {
+    "name": "Molson Coors Beverage Company",
+    "symbol": "TAP"
+  },
+  {
+    "name": "Mondelez International",
+    "symbol": "MDLZ"
+  },
+  {
+    "name": "Monolithic Power Systems",
+    "symbol": "MPWR"
+  },
+  {
+    "name": "Monster Beverage",
+    "symbol": "MNST"
+  },
+  {
+    "name": "Moody's Corporation",
+    "symbol": "MCO"
+  },
+  {
+    "name": "Morgan Stanley",
+    "symbol": "MS"
+  },
+  {
+    "name": "Mosaic Company (The)",
+    "symbol": "MOS"
+  },
+  {
+    "name": "Motorola Solutions",
+    "symbol": "MSI"
+  },
+  {
+    "name": "MSCI Inc.",
+    "symbol": "MSCI"
+  },
+  {
+    "name": "Nasdaq, Inc.",
+    "symbol": "NDAQ"
+  },
+  {
+    "name": "NetApp",
+    "symbol": "NTAP"
+  },
+  {
+    "name": "Netflix",
+    "symbol": "NFLX"
+  },
+  {
+    "name": "Newmont",
+    "symbol": "NEM"
+  },
+  {
+    "name": "News Corp (Class A)",
+    "symbol": "NWSA"
+  },
+  {
+    "name": "News Corp (Class B)",
+    "symbol": "NWS"
+  },
+  {
+    "name": "NextEra Energy",
+    "symbol": "NEE"
+  },
+  {
+    "name": "Nike, Inc.",
+    "symbol": "NKE"
+  },
+  {
+    "name": "NiSource",
+    "symbol": "NI"
+  },
+  {
+    "name": "Nordson Corporation",
+    "symbol": "NDSN"
+  },
+  {
+    "name": "Norfolk Southern",
+    "symbol": "NSC"
+  },
+  {
+    "name": "Northern Trust",
+    "symbol": "NTRS"
+  },
+  {
+    "name": "Northrop Grumman",
+    "symbol": "NOC"
+  },
+  {
+    "name": "Norwegian Cruise Line Holdings",
+    "symbol": "NCLH"
+  },
+  {
+    "name": "NRG Energy",
+    "symbol": "NRG"
+  },
+  {
+    "name": "Nucor",
+    "symbol": "NUE"
+  },
+  {
+    "name": "Nvidia",
+    "symbol": "NVDA"
+  },
+  {
+    "name": "NVR, Inc.",
+    "symbol": "NVR"
+  },
+  {
+    "name": "NXP Semiconductors",
+    "symbol": "NXPI"
+  },
+  {
+    "name": "O\u00e2\u20ac\u2122Reilly Automotive",
+    "symbol": "ORLY"
+  },
+  {
+    "name": "Occidental Petroleum",
+    "symbol": "OXY"
+  },
+  {
+    "name": "Old Dominion",
+    "symbol": "ODFL"
+  },
+  {
+    "name": "Omnicom Group",
+    "symbol": "OMC"
+  },
+  {
+    "name": "ON Semiconductor",
+    "symbol": "ON"
+  },
+  {
+    "name": "Oneok",
+    "symbol": "OKE"
+  },
+  {
+    "name": "Oracle Corporation",
+    "symbol": "ORCL"
+  },
+  {
+    "name": "Otis Worldwide",
+    "symbol": "OTIS"
+  },
+  {
+    "name": "Paccar",
+    "symbol": "PCAR"
+  },
+  {
+    "name": "Packaging Corporation of America",
+    "symbol": "PKG"
+  },
+  {
+    "name": "Palantir Technologies",
+    "symbol": "PLTR"
+  },
+  {
+    "name": "Palo Alto Networks",
+    "symbol": "PANW"
+  },
+  {
+    "name": "Paramount Skydance Corporation",
+    "symbol": "PSKY"
+  },
+  {
+    "name": "Parker Hannifin",
+    "symbol": "PH"
+  },
+  {
+    "name": "Paychex",
+    "symbol": "PAYX"
+  },
+  {
+    "name": "PayPal",
+    "symbol": "PYPL"
+  },
+  {
+    "name": "Pentair",
+    "symbol": "PNR"
+  },
+  {
+    "name": "PepsiCo",
+    "symbol": "PEP"
+  },
+  {
+    "name": "Pfizer",
+    "symbol": "PFE"
+  },
+  {
+    "name": "PG&E Corporation",
+    "symbol": "PCG"
+  },
+  {
+    "name": "Philip Morris International",
+    "symbol": "PM"
+  },
+  {
+    "name": "Phillips 66",
+    "symbol": "PSX"
+  },
+  {
+    "name": "Pinnacle West Capital",
+    "symbol": "PNW"
+  },
+  {
+    "name": "PNC Financial Services",
+    "symbol": "PNC"
+  },
+  {
+    "name": "Pool Corporation",
+    "symbol": "POOL"
+  },
+  {
+    "name": "PPG Industries",
+    "symbol": "PPG"
+  },
+  {
+    "name": "PPL Corporation",
+    "symbol": "PPL"
+  },
+  {
+    "name": "Principal Financial Group",
+    "symbol": "PFG"
+  },
+  {
+    "name": "Procter & Gamble",
+    "symbol": "PG"
+  },
+  {
+    "name": "Progressive Corporation",
+    "symbol": "PGR"
+  },
+  {
+    "name": "Prologis",
+    "symbol": "PLD"
+  },
+  {
+    "name": "Prudential Financial",
+    "symbol": "PRU"
+  },
+  {
+    "name": "Public Service Enterprise Group",
+    "symbol": "PEG"
+  },
+  {
+    "name": "PTC Inc.",
+    "symbol": "PTC"
+  },
+  {
+    "name": "Public Storage",
+    "symbol": "PSA"
+  },
+  {
+    "name": "PulteGroup",
+    "symbol": "PHM"
+  },
+  {
+    "name": "Quanta Services",
+    "symbol": "PWR"
+  },
+  {
+    "name": "Qualcomm",
+    "symbol": "QCOM"
+  },
+  {
+    "name": "Quest Diagnostics",
+    "symbol": "DGX"
+  },
+  {
+    "name": "Qnity Electronics",
+    "symbol": "Q"
+  },
+  {
+    "name": "Ralph Lauren Corporation",
+    "symbol": "RL"
+  },
+  {
+    "name": "Raymond James Financial",
+    "symbol": "RJF"
+  },
+  {
+    "name": "RTX Corporation",
+    "symbol": "RTX"
+  },
+  {
+    "name": "Realty Income",
+    "symbol": "O"
+  },
+  {
+    "name": "Regency Centers",
+    "symbol": "REG"
+  },
+  {
+    "name": "Regeneron Pharmaceuticals",
+    "symbol": "REGN"
+  },
+  {
+    "name": "Regions Financial Corporation",
+    "symbol": "RF"
+  },
+  {
+    "name": "Republic Services",
+    "symbol": "RSG"
+  },
+  {
+    "name": "ResMed",
+    "symbol": "RMD"
+  },
+  {
+    "name": "Revvity",
+    "symbol": "RVTY"
+  },
+  {
+    "name": "Robinhood Markets",
+    "symbol": "HOOD"
+  },
+  {
+    "name": "Rockwell Automation",
+    "symbol": "ROK"
+  },
+  {
+    "name": "Rollins, Inc.",
+    "symbol": "ROL"
+  },
+  {
+    "name": "Roper Technologies",
+    "symbol": "ROP"
+  },
+  {
+    "name": "Ross Stores",
+    "symbol": "ROST"
+  },
+  {
+    "name": "Royal Caribbean Group",
+    "symbol": "RCL"
+  },
+  {
+    "name": "S&P Global",
+    "symbol": "SPGI"
+  },
+  {
+    "name": "Salesforce",
+    "symbol": "CRM"
+  },
+  {
+    "name": "Sandisk",
+    "symbol": "SNDK"
+  },
+  {
+    "name": "SBA Communications",
+    "symbol": "SBAC"
+  },
+  {
+    "name": "Schlumberger",
+    "symbol": "SLB"
+  },
+  {
+    "name": "Seagate Technology",
+    "symbol": "STX"
+  },
+  {
+    "name": "Sempra",
+    "symbol": "SRE"
+  },
+  {
+    "name": "ServiceNow",
+    "symbol": "NOW"
+  },
+  {
+    "name": "Sherwin-Williams",
+    "symbol": "SHW"
+  },
+  {
+    "name": "Simon Property Group",
+    "symbol": "SPG"
+  },
+  {
+    "name": "Skyworks Solutions",
+    "symbol": "SWKS"
+  },
+  {
+    "name": "J.M. Smucker Company (The)",
+    "symbol": "SJM"
+  },
+  {
+    "name": "Smurfit Westrock",
+    "symbol": "SW"
+  },
+  {
+    "name": "Snap-on",
+    "symbol": "SNA"
+  },
+  {
+    "name": "Solventum",
+    "symbol": "SOLV"
+  },
+  {
+    "name": "Southern Company",
+    "symbol": "SO"
+  },
+  {
+    "name": "Southwest Airlines",
+    "symbol": "LUV"
+  },
+  {
+    "name": "Stanley Black & Decker",
+    "symbol": "SWK"
+  },
+  {
+    "name": "Starbucks",
+    "symbol": "SBUX"
+  },
+  {
+    "name": "State Street Corporation",
+    "symbol": "STT"
+  },
+  {
+    "name": "Steel Dynamics",
+    "symbol": "STLD"
+  },
+  {
+    "name": "Steris",
+    "symbol": "STE"
+  },
+  {
+    "name": "Stryker Corporation",
+    "symbol": "SYK"
+  },
+  {
+    "name": "Supermicro",
+    "symbol": "SMCI"
+  },
+  {
+    "name": "Synchrony Financial",
+    "symbol": "SYF"
+  },
+  {
+    "name": "Synopsys",
+    "symbol": "SNPS"
+  },
+  {
+    "name": "Sysco",
+    "symbol": "SYY"
+  },
+  {
+    "name": "T-Mobile US",
+    "symbol": "TMUS"
+  },
+  {
+    "name": "T. Rowe Price",
+    "symbol": "TROW"
+  },
+  {
+    "name": "Take-Two Interactive",
+    "symbol": "TTWO"
+  },
+  {
+    "name": "Tapestry, Inc.",
+    "symbol": "TPR"
+  },
+  {
+    "name": "Targa Resources",
+    "symbol": "TRGP"
+  },
+  {
+    "name": "Target Corporation",
+    "symbol": "TGT"
+  },
+  {
+    "name": "TE Connectivity",
+    "symbol": "TEL"
+  },
+  {
+    "name": "Teledyne Technologies",
+    "symbol": "TDY"
+  },
+  {
+    "name": "Teradyne",
+    "symbol": "TER"
+  },
+  {
+    "name": "Tesla, Inc.",
+    "symbol": "TSLA"
+  },
+  {
+    "name": "Texas Instruments",
+    "symbol": "TXN"
+  },
+  {
+    "name": "Texas Pacific Land Corporation",
+    "symbol": "TPL"
+  },
+  {
+    "name": "Textron",
+    "symbol": "TXT"
+  },
+  {
+    "name": "Thermo Fisher Scientific",
+    "symbol": "TMO"
+  },
+  {
+    "name": "TJX Companies",
+    "symbol": "TJX"
+  },
+  {
+    "name": "TKO Group Holdings",
+    "symbol": "TKO"
+  },
+  {
+    "name": "Trade Desk (The)",
+    "symbol": "TTD"
+  },
+  {
+    "name": "Tractor Supply",
+    "symbol": "TSCO"
+  },
+  {
+    "name": "Trane Technologies",
+    "symbol": "TT"
+  },
+  {
+    "name": "TransDigm Group",
+    "symbol": "TDG"
+  },
+  {
+    "name": "Travelers Companies (The)",
+    "symbol": "TRV"
+  },
+  {
+    "name": "Trimble Inc.",
+    "symbol": "TRMB"
+  },
+  {
+    "name": "Truist Financial",
+    "symbol": "TFC"
+  },
+  {
+    "name": "Tyler Technologies",
+    "symbol": "TYL"
+  },
+  {
+    "name": "Tyson Foods",
+    "symbol": "TSN"
+  },
+  {
+    "name": "U.S. Bancorp",
+    "symbol": "USB"
+  },
+  {
+    "name": "Uber",
+    "symbol": "UBER"
+  },
+  {
+    "name": "UDR, Inc.",
+    "symbol": "UDR"
+  },
+  {
+    "name": "Ulta Beauty",
+    "symbol": "ULTA"
+  },
+  {
+    "name": "Union Pacific Corporation",
+    "symbol": "UNP"
+  },
+  {
+    "name": "United Airlines Holdings",
+    "symbol": "UAL"
+  },
+  {
+    "name": "United Parcel Service",
+    "symbol": "UPS"
+  },
+  {
+    "name": "United Rentals",
+    "symbol": "URI"
+  },
+  {
+    "name": "UnitedHealth Group",
+    "symbol": "UNH"
+  },
+  {
+    "name": "Universal Health Services",
+    "symbol": "UHS"
+  },
+  {
+    "name": "Valero Energy",
+    "symbol": "VLO"
+  },
+  {
+    "name": "Ventas",
+    "symbol": "VTR"
+  },
+  {
+    "name": "Veralto",
+    "symbol": "VLTO"
+  },
+  {
+    "name": "Verisign",
+    "symbol": "VRSN"
+  },
+  {
+    "name": "Verisk Analytics",
+    "symbol": "VRSK"
+  },
+  {
+    "name": "Verizon",
+    "symbol": "VZ"
+  },
+  {
+    "name": "Vertex Pharmaceuticals",
+    "symbol": "VRTX"
+  },
+  {
+    "name": "Vertiv",
+    "symbol": "VRT"
+  },
+  {
+    "name": "Viatris",
+    "symbol": "VTRS"
+  },
+  {
+    "name": "Vici Properties",
+    "symbol": "VICI"
+  },
+  {
+    "name": "Visa Inc.",
+    "symbol": "V"
+  },
+  {
+    "name": "Vistra Corp.",
+    "symbol": "VST"
+  },
+  {
+    "name": "Vulcan Materials Company",
+    "symbol": "VMC"
+  },
+  {
+    "name": "W. R. Berkley Corporation",
+    "symbol": "WRB"
+  },
+  {
+    "name": "W. W. Grainger",
+    "symbol": "GWW"
+  },
+  {
+    "name": "Wabtec",
+    "symbol": "WAB"
+  },
+  {
+    "name": "Walmart",
+    "symbol": "WMT"
+  },
+  {
+    "name": "Walt Disney Company (The)",
+    "symbol": "DIS"
+  },
+  {
+    "name": "Warner Bros. Discovery",
+    "symbol": "WBD"
+  },
+  {
+    "name": "Waste Management",
+    "symbol": "WM"
+  },
+  {
+    "name": "Waters Corporation",
+    "symbol": "WAT"
+  },
+  {
+    "name": "WEC Energy Group",
+    "symbol": "WEC"
+  },
+  {
+    "name": "Wells Fargo",
+    "symbol": "WFC"
+  },
+  {
+    "name": "Welltower",
+    "symbol": "WELL"
+  },
+  {
+    "name": "West Pharmaceutical Services",
+    "symbol": "WST"
+  },
+  {
+    "name": "Western Digital",
+    "symbol": "WDC"
+  },
+  {
+    "name": "Weyerhaeuser",
+    "symbol": "WY"
+  },
+  {
+    "name": "Williams-Sonoma, Inc.",
+    "symbol": "WSM"
+  },
+  {
+    "name": "Williams Companies",
+    "symbol": "WMB"
+  },
+  {
+    "name": "Willis Towers Watson",
+    "symbol": "WTW"
+  },
+  {
+    "name": "Workday, Inc.",
+    "symbol": "WDAY"
+  },
+  {
+    "name": "Wynn Resorts",
+    "symbol": "WYNN"
+  },
+  {
+    "name": "Xcel Energy",
+    "symbol": "XEL"
+  },
+  {
+    "name": "Xylem Inc.",
+    "symbol": "XYL"
+  },
+  {
+    "name": "Yum! Brands",
+    "symbol": "YUM"
+  },
+  {
+    "name": "Zebra Technologies",
+    "symbol": "ZBRA"
+  },
+  {
+    "name": "Zimmer Biomet",
+    "symbol": "ZBH"
+  },
+  {
+    "name": "Zoetis",
+    "symbol": "ZTS"
+  },
+  {
+    "name": "Artius II Acquisition Inc.",
+    "symbol": "AACB"
+  },
+  {
+    "name": "Artius II Acquisition Inc.",
+    "symbol": "AACBR"
+  },
+  {
+    "name": "Artius II Acquisition Inc.",
+    "symbol": "AACBU"
+  },
+  {
+    "name": "ATA Creativity Global",
+    "symbol": "AACG"
+  },
+  {
+    "name": "Armada Acquisition Corp. III",
+    "symbol": "AACI"
+  },
+  {
+    "name": "Armada Acquisition Corp. III",
+    "symbol": "AACIU"
+  },
+  {
+    "name": "Armada Acquisition Corp. III",
+    "symbol": "AACIW"
+  },
+  {
+    "name": "Abony Acquisition Corp. I",
+    "symbol": "AACOU"
+  },
+  {
+    "name": "AdvisorShares Dorsey Wright ADR ETF",
+    "symbol": "AADR"
+  },
+  {
+    "name": "Alpha Architect US Equity 2 ETF",
+    "symbol": "AAEQ"
+  },
+  {
+    "name": "American Airlines Group, Inc.",
+    "symbol": "AAL"
+  },
+  {
+    "name": "Leverage Shares 2X Long AAL Daily ETF",
+    "symbol": "AALG"
+  },
+  {
+    "name": "Atlantic American Corporation",
+    "symbol": "AAME"
+  },
+  {
+    "name": "Applied Optoelectronics, Inc.",
+    "symbol": "AAOI"
+  },
+  {
+    "name": "AAON, Inc.",
+    "symbol": "AAON"
+  },
+  {
+    "name": "GraniteShares 2x Long AAPL Daily ETF",
+    "symbol": "AAPB"
+  },
+  {
+    "name": "Direxion Daily AAPL Bear 1X ETF",
+    "symbol": "AAPD"
+  },
+  {
+    "name": "Ascentage Pharma Group International",
+    "symbol": "AAPG"
+  },
+  {
+    "name": "Direxion Daily AAPL Bull 2X ETF",
+    "symbol": "AAPU"
+  },
+  {
+    "name": "Aardvark Therapeutics, Inc.",
+    "symbol": "AARD"
+  },
+  {
+    "name": "Alpha Architect US Equity ETF",
+    "symbol": "AAUS"
+  },
+  {
+    "name": "Alpha Architect Global Factor Equity ETF",
+    "symbol": "AAVM"
+  },
+  {
+    "name": "iShares MSCI All Country Asia ex Japan ETF",
+    "symbol": "AAXJ"
+  },
+  {
+    "name": "American Battery Technology Company",
+    "symbol": "ABAT"
+  },
+  {
+    "name": "AbCellera Biologics Inc.",
+    "symbol": "ABCL"
+  },
+  {
+    "name": "Alpha Blue Capital US Small-Mid Cap Dynamic ETF",
+    "symbol": "ABCS"
+  },
+  {
+    "name": "Abeona Therapeutics Inc.",
+    "symbol": "ABEO"
+  },
+  {
+    "name": "VictoryShares Pioneer Asset-Based Income ETF",
+    "symbol": "ABI"
+  },
+  {
+    "name": "Argent Large Cap ETF",
+    "symbol": "ABIG"
+  },
+  {
+    "name": "Able View Global Inc.",
+    "symbol": "ABLV"
+  },
+  {
+    "name": "Able View Global Inc.",
+    "symbol": "ABLVW"
+  },
+  {
+    "name": "Leverage Shares 2x Long ABNB Daily ETF",
+    "symbol": "ABNG"
+  },
+  {
+    "name": "Acumen Pharmaceuticals, Inc.",
+    "symbol": "ABOS"
+  },
+  {
+    "name": "Absci Corporation",
+    "symbol": "ABSI"
+  },
+  {
+    "name": "American Bitcoin Corp.",
+    "symbol": "ABTC"
+  },
+  {
+    "name": "Abits Group Inc",
+    "symbol": "ABTS"
+  },
+  {
+    "name": "Arbutus Biopharma Corporation",
+    "symbol": "ABUS"
+  },
+  {
+    "name": "ABVC BioPharma, Inc.",
+    "symbol": "ABVC"
+  },
+  {
+    "name": "Above Food Ingredients Inc.",
+    "symbol": "ABVE"
+  },
+  {
+    "name": "Above Food Ingredients Inc.",
+    "symbol": "ABVEW"
+  },
+  {
+    "name": "Abivax SA",
+    "symbol": "ABVX"
+  },
+  {
+    "name": "Averin Capital Acquisition Corp.",
+    "symbol": "ACAAU"
+  },
+  {
+    "name": "ACADIA Pharmaceuticals Inc.",
+    "symbol": "ACAD"
+  },
+  {
+    "name": "Aurora Cannabis Inc.",
+    "symbol": "ACB"
+  },
+  {
+    "name": "Acco Group Holdings Limited",
+    "symbol": "ACCL"
+  },
+  {
+    "name": "ProFrac Holding Corp.",
+    "symbol": "ACDC"
+  },
+  {
+    "name": "ARS Core Equity Portfolio ETF",
+    "symbol": "ACEP"
+  },
+  {
+    "name": "Adicet Bio, Inc.",
+    "symbol": "ACET"
+  },
+  {
+    "name": "Acorn Energy, Inc.",
+    "symbol": "ACFN"
+  },
+  {
+    "name": "Arch Capital Group Ltd.",
+    "symbol": "ACGLN"
+  },
+  {
+    "name": "Arch Capital Group Ltd.",
+    "symbol": "ACGLO"
+  },
+  {
+    "name": "Acadia Healthcare Company, Inc.",
+    "symbol": "ACHC"
+  },
+  {
+    "name": "Achieve Life Sciences, Inc. ",
+    "symbol": "ACHV"
+  },
+  {
+    "name": "American Coastal Insurance Corporation",
+    "symbol": "ACIC"
+  },
+  {
+    "name": "AC Immune SA",
+    "symbol": "ACIU"
+  },
+  {
+    "name": "ACI Worldwide, Inc.",
+    "symbol": "ACIW"
+  },
+  {
+    "name": "Axcelis Technologies, Inc.",
+    "symbol": "ACLS"
+  },
+  {
+    "name": "Arcellx, Inc.",
+    "symbol": "ACLX"
+  },
+  {
+    "name": "ACM Research, Inc.",
+    "symbol": "ACMR"
+  },
+  {
+    "name": "ACNB Corporation",
+    "symbol": "ACNB"
+  },
+  {
+    "name": "Ascent Industries Co.",
+    "symbol": "ACNT"
+  },
+  {
+    "name": "Alpha Cognition Inc.",
+    "symbol": "ACOG"
+  },
+  {
+    "name": "Aclarion, Inc.",
+    "symbol": "ACON"
+  },
+  {
+    "name": "Aclarion, Inc.",
+    "symbol": "ACONW"
+  },
+  {
+    "name": "Aclaris Therapeutics, Inc.",
+    "symbol": "ACRS"
+  },
+  {
+    "name": "Acrivon Therapeutics, Inc.",
+    "symbol": "ACRV"
+  },
+  {
+    "name": "Enact Holdings, Inc.",
+    "symbol": "ACT"
+  },
+  {
+    "name": "Acacia Research Corporation",
+    "symbol": "ACTG"
+  },
+  {
+    "name": "Actuate Therapeutics, Inc.",
+    "symbol": "ACTU"
+  },
+  {
+    "name": "iShares MSCI ACWI ETF",
+    "symbol": "ACWI"
+  },
+  {
+    "name": "iShares MSCI ACWI ex U.S. ETF",
+    "symbol": "ACWX"
+  },
+  {
+    "name": "Acurx Pharmaceuticals, Inc.",
+    "symbol": "ACXP"
+  },
+  {
+    "name": "American Drive Acquisition Company",
+    "symbol": "ADAC"
+  },
+  {
+    "name": "American Drive Acquisition Company",
+    "symbol": "ADACU"
+  },
+  {
+    "name": "American Drive Acquisition Company",
+    "symbol": "ADACW"
+  },
+  {
+    "name": "Adagene Inc.",
+    "symbol": "ADAG"
+  },
+  {
+    "name": "Adamas Trust, Inc.",
+    "symbol": "ADAM"
+  },
+  {
+    "name": "Adamas Trust, Inc.",
+    "symbol": "ADAMG"
+  },
+  {
+    "name": "Adamas Trust, Inc.",
+    "symbol": "ADAMH"
+  },
+  {
+    "name": "Adamas Trust, Inc.",
+    "symbol": "ADAMI"
+  },
+  {
+    "name": "Adamas Trust, Inc.",
+    "symbol": "ADAML"
+  },
+  {
+    "name": "Adamas Trust, Inc.",
+    "symbol": "ADAMM"
+  },
+  {
+    "name": "Adamas Trust, Inc.",
+    "symbol": "ADAMN"
+  },
+  {
+    "name": "Adamas Trust, Inc.",
+    "symbol": "ADAMO"
+  },
+  {
+    "name": "Adamas Trust, Inc.",
+    "symbol": "ADAMZ"
+  },
+  {
+    "name": "Leverage Shares 2X Long ADBE Daily ETF",
+    "symbol": "ADBG"
+  },
+  {
+    "name": "Adeia Inc. ",
+    "symbol": "ADEA"
+  },
+  {
+    "name": "Adagio Medical Holdings, Inc",
+    "symbol": "ADGM"
+  },
+  {
+    "name": "Adial Pharmaceuticals, Inc",
+    "symbol": "ADIL"
+  },
+  {
+    "name": "ADMA Biologics Inc",
+    "symbol": "ADMA"
+  },
+  {
+    "name": "Adaptive Biotechnologies Corporation",
+    "symbol": "ADPT"
+  },
+  {
+    "name": "ADS-TEC ENERGY PLC",
+    "symbol": "ADSE"
+  },
+  {
+    "name": "ADS-TEC ENERGY PLC",
+    "symbol": "ADSEW"
+  },
+  {
+    "name": "ADTRAN Holdings, Inc.",
+    "symbol": "ADTN"
+  },
+  {
+    "name": "Aditxt, Inc.",
+    "symbol": "ADTX"
+  },
+  {
+    "name": "Aduro Clean Technologies Inc.",
+    "symbol": "ADUR"
+  },
+  {
+    "name": "Addus HomeCare Corporation",
+    "symbol": "ADUS"
+  },
+  {
+    "name": "Advantage Solutions Inc. ",
+    "symbol": "ADV"
+  },
+  {
+    "name": "Advanced Biomed Inc.",
+    "symbol": "ADVB"
+  },
+  {
+    "name": "Addex Therapeutics Ltd",
+    "symbol": "ADXN"
+  },
+  {
+    "name": "Activate Energy Acquisition Corp.",
+    "symbol": "AEAQ"
+  },
+  {
+    "name": "Activate Energy Acquisition Corp.",
+    "symbol": "AEAQU"
+  },
+  {
+    "name": "Activate Energy Acquisition Corp.",
+    "symbol": "AEAQW"
+  },
+  {
+    "name": "Aebi Schmidt Holding AG",
+    "symbol": "AEBI"
+  },
+  {
+    "name": "Anfield Energy Inc.",
+    "symbol": "AEC"
+  },
+  {
+    "name": "Antelope Enterprise Holdings Limited",
+    "symbol": "AEHL"
+  },
+  {
+    "name": "Aehr Test Systems",
+    "symbol": "AEHR"
+  },
+  {
+    "name": "Alset Inc.",
+    "symbol": "AEI"
+  },
+  {
+    "name": "Advanced Energy Industries, Inc.",
+    "symbol": "AEIS"
+  },
+  {
+    "name": "Aethlon Medical, Inc.",
+    "symbol": "AEMD"
+  },
+  {
+    "name": "Alliance Entertainment Holding Corporation",
+    "symbol": "AENT"
+  },
+  {
+    "name": "Alliance Entertainment Holding Corporation",
+    "symbol": "AENTW"
+  },
+  {
+    "name": "Aeries Technology, Inc.",
+    "symbol": "AERT"
+  },
+  {
+    "name": "Aeries Technology, Inc.",
+    "symbol": "AERTW"
+  },
+  {
+    "name": "Aeva Technologies, Inc.",
+    "symbol": "AEVA"
+  },
+  {
+    "name": "AudioEye, Inc.",
+    "symbol": "AEYE"
+  },
+  {
+    "name": "Affinity Bancshares, Inc.",
+    "symbol": "AFBI"
+  },
+  {
+    "name": "Advanced Flower Capital Inc.",
+    "symbol": "AFCG"
+  },
+  {
+    "name": "Aimei Health Technology Co., Ltd",
+    "symbol": "AFJK"
+  },
+  {
+    "name": "Aimei Health Technology Co., Ltd",
+    "symbol": "AFJKR"
+  },
+  {
+    "name": "Aimei Health Technology Co., Ltd",
+    "symbol": "AFJKU"
+  },
+  {
+    "name": "ARS Focused Opportunity Strategy ETF",
+    "symbol": "AFOS"
+  },
+  {
+    "name": "Forafric Global PLC",
+    "symbol": "AFRI"
+  },
+  {
+    "name": "Forafric Global PLC",
+    "symbol": "AFRIW"
+  },
+  {
+    "name": "Affirm Holdings, Inc.",
+    "symbol": "AFRM"
+  },
+  {
+    "name": "abrdn Focused U.S. Small Cap Active ETF",
+    "symbol": "AFSC"
+  },
+  {
+    "name": "Afya Limited",
+    "symbol": "AFYA"
+  },
+  {
+    "name": "Allied Gaming & Entertainment Inc.",
+    "symbol": "AGAE"
+  },
+  {
+    "name": "Agencia Comercial Spirits Ltd",
+    "symbol": "AGCC"
+  },
+  {
+    "name": "abrdn Emerging Markets Dividend Active ETF",
+    "symbol": "AGEM"
+  },
+  {
+    "name": "Agenus Inc.",
+    "symbol": "AGEN"
+  },
+  {
+    "name": "EA Astoria Dynamic Core US Fixed Income ETF",
+    "symbol": "AGGA"
+  },
+  {
+    "name": "Aureus Greenway Holdings Inc.",
+    "symbol": "AGH"
+  },
+  {
+    "name": "Agios Pharmaceuticals, Inc.",
+    "symbol": "AGIO"
+  },
+  {
+    "name": "KraneShares Artificial Intelligence & Technology ETF",
+    "symbol": "AGIX"
+  },
+  {
+    "name": "AgomAb Therapeutics NV",
+    "symbol": "AGMB"
+  },
+  {
+    "name": "AGM Group Holdings Inc.",
+    "symbol": "AGMH"
+  },
+  {
+    "name": "Themes Silver Miners ETF",
+    "symbol": "AGMI"
+  },
+  {
+    "name": "AGNC Investment Corp.",
+    "symbol": "AGNC"
+  },
+  {
+    "name": "AGNC Investment Corp.",
+    "symbol": "AGNCL"
+  },
+  {
+    "name": "AGNC Investment Corp.",
+    "symbol": "AGNCM"
+  },
+  {
+    "name": "AGNC Investment Corp.",
+    "symbol": "AGNCN"
+  },
+  {
+    "name": "AGNC Investment Corp.",
+    "symbol": "AGNCO"
+  },
+  {
+    "name": "AGNC Investment Corp.",
+    "symbol": "AGNCP"
+  },
+  {
+    "name": "AGNC Investment Corp.",
+    "symbol": "AGNCZ"
+  },
+  {
+    "name": "Global X Aging Population ETF",
+    "symbol": "AGNG"
+  },
+  {
+    "name": "Axe Compute Inc.",
+    "symbol": "AGPU"
+  },
+  {
+    "name": "Agroz Inc.",
+    "symbol": "AGRZ"
+  },
+  {
+    "name": "Agilysys, Inc.",
+    "symbol": "AGYS"
+  },
+  {
+    "name": "WisdomTree Interest Rate Hedged U.S. Aggregate Bond Fund",
+    "symbol": "AGZD"
+  },
+  {
+    "name": "AdaptHealth Corp. ",
+    "symbol": "AHCO"
+  },
+  {
+    "name": "Akso Health Group",
+    "symbol": "AHG"
+  },
+  {
+    "name": "Ambitions Enterprise Management Co. L.L.C",
+    "symbol": "AHMA"
+  },
+  {
+    "name": "iShares Asia 50 ETF",
+    "symbol": "AIA"
+  },
+  {
+    "name": "20/20 Biolabs, Inc.",
+    "symbol": "AIDX"
+  },
+  {
+    "name": "TCW Artificial Intelligence ETF",
+    "symbol": "AIFD"
+  },
+  {
+    "name": "Firefly Neuroscience, Inc. ",
+    "symbol": "AIFF"
+  },
+  {
+    "name": "AIFU Inc.",
+    "symbol": "AIFU"
+  },
+  {
+    "name": "Senmiao Technology Limited",
+    "symbol": "AIHS"
+  },
+  {
+    "name": "Robo.ai Inc.",
+    "symbol": "AIIO"
+  },
+  {
+    "name": "Robo.ai Inc.",
+    "symbol": "AIIOW"
+  },
+  {
+    "name": "Ainos, Inc.",
+    "symbol": "AIMD"
+  },
+  {
+    "name": "Ainos, Inc.",
+    "symbol": "AIMDW"
+  },
+  {
+    "name": "Acuitas Small Cap Active ETF",
+    "symbol": "AIMS"
+  },
+  {
+    "name": "AIOS Tech Inc.",
+    "symbol": "AIOS"
+  },
+  {
+    "name": "PowerFleet, Inc.",
+    "symbol": "AIOT"
+  },
+  {
+    "name": "Arteris, Inc. ",
+    "symbol": "AIP"
+  },
+  {
+    "name": "REX AI Equity Premium Income ETF",
+    "symbol": "AIPI"
+  },
+  {
+    "name": "Defiance AI & Power Infrastructure ETF",
+    "symbol": "AIPO"
+  },
+  {
+    "name": "Global X Artificial Intelligence & Technology ETF",
+    "symbol": "AIQ"
+  },
+  {
+    "name": "reAlpha Tech Corp.",
+    "symbol": "AIRE"
+  },
+  {
+    "name": "Airgain, Inc.",
+    "symbol": "AIRG"
+  },
+  {
+    "name": "AirJoule Technologies Corporation",
+    "symbol": "AIRJ"
+  },
+  {
+    "name": "AirJoule Technologies Corporation",
+    "symbol": "AIRJW"
+  },
+  {
+    "name": "AIRO Group Holdings, Inc.",
+    "symbol": "AIRO"
+  },
+  {
+    "name": "First Trust RBA American Industrial Renaissance ETF",
+    "symbol": "AIRR"
+  },
+  {
+    "name": "AirSculpt Technologies, Inc.",
+    "symbol": "AIRS"
+  },
+  {
+    "name": "Air T, Inc.",
+    "symbol": "AIRT"
+  },
+  {
+    "name": "Air T, Inc.",
+    "symbol": "AIRTP"
+  },
+  {
+    "name": "Airship AI Holdings, Inc",
+    "symbol": "AISP"
+  },
+  {
+    "name": "Airship AI Holdings, Inc",
+    "symbol": "AISPW"
+  },
+  {
+    "name": "AIxCrypto Holdings, Inc.",
+    "symbol": "AIXC"
+  },
+  {
+    "name": "XIAO-I Corporation",
+    "symbol": "AIXI"
+  },
+  {
+    "name": "Akanda Corp.",
+    "symbol": "AKAN"
+  },
+  {
+    "name": "Akebia Therapeutics, Inc.",
+    "symbol": "AKBA"
+  },
+  {
+    "name": "Aktis Oncology, Inc.",
+    "symbol": "AKTS"
+  },
+  {
+    "name": "Akari Therapeutics Plc",
+    "symbol": "AKTX"
+  },
+  {
+    "name": "Astera Labs, Inc.",
+    "symbol": "ALAB"
+  },
+  {
+    "name": "Alarum Technologies Ltd.",
+    "symbol": "ALAR"
+  },
+  {
+    "name": "Leverage Shares 2X Long ALB Daily ETF",
+    "symbol": "ALBG"
+  },
+  {
+    "name": "Avalon GloboCare Corp.",
+    "symbol": "ALBT"
+  },
+  {
+    "name": "Alico, Inc.",
+    "symbol": "ALCO"
+  },
+  {
+    "name": "Alchemy Investments Acquisition Corp 1",
+    "symbol": "ALCY"
+  },
+  {
+    "name": "Alchemy Investments Acquisition Corp 1",
+    "symbol": "ALCYU"
+  },
+  {
+    "name": "Alchemy Investments Acquisition Corp 1",
+    "symbol": "ALCYW"
+  },
+  {
+    "name": "Aldel Financial II Inc.",
+    "symbol": "ALDF"
+  },
+  {
+    "name": "Aldel Financial II Inc.",
+    "symbol": "ALDFU"
+  },
+  {
+    "name": "Aldel Financial II Inc.",
+    "symbol": "ALDFW"
+  },
+  {
+    "name": "Aldeyra Therapeutics, Inc.",
+    "symbol": "ALDX"
+  },
+  {
+    "name": "Alector, Inc.",
+    "symbol": "ALEC"
+  },
+  {
+    "name": "Centurion Acquisition Corp.",
+    "symbol": "ALF"
+  },
+  {
+    "name": "Centurion Acquisition Corp.",
+    "symbol": "ALFUU"
+  },
+  {
+    "name": "Centurion Acquisition Corp.",
+    "symbol": "ALFUW"
+  },
+  {
+    "name": "Allegro MicroSystems, Inc.",
+    "symbol": "ALGM"
+  },
+  {
+    "name": "Aligos Therapeutics, Inc.",
+    "symbol": "ALGS"
+  },
+  {
+    "name": "Allegiant Travel Company",
+    "symbol": "ALGT"
+  },
+  {
+    "name": "Alignment Healthcare, Inc.",
+    "symbol": "ALHC"
+  },
+  {
+    "name": "Argent Focused Small Cap ETF",
+    "symbol": "ALIL"
+  },
+  {
+    "name": "Calisa Acquisition Corp",
+    "symbol": "ALIS"
+  },
+  {
+    "name": "Calisa Acquisition Corp",
+    "symbol": "ALISR"
+  },
+  {
+    "name": "Calisa Acquisition Corp",
+    "symbol": "ALISU"
+  },
+  {
+    "name": "Alkermes plc",
+    "symbol": "ALKS"
+  },
+  {
+    "name": "Alkami Technology, Inc.",
+    "symbol": "ALKT"
+  },
+  {
+    "name": "Allogene Therapeutics, Inc.",
+    "symbol": "ALLO"
+  },
+  {
+    "name": "Allarity Therapeutics, Inc.",
+    "symbol": "ALLR"
+  },
+  {
+    "name": "Allot Ltd.",
+    "symbol": "ALLT"
+  },
+  {
+    "name": "State Street Bridgewater All Weather ETF",
+    "symbol": "ALLW"
+  },
+  {
+    "name": "Almonty Industries Inc.",
+    "symbol": "ALM"
+  },
+  {
+    "name": "Alumis Inc.",
+    "symbol": "ALMS"
+  },
+  {
+    "name": "Aeluma, Inc.",
+    "symbol": "ALMU"
+  },
+  {
+    "name": "Allient Inc.",
+    "symbol": "ALNT"
+  },
+  {
+    "name": "Alnylam Pharmaceuticals, Inc.",
+    "symbol": "ALNY"
+  },
+  {
+    "name": "AstroNova, Inc.",
+    "symbol": "ALOT"
+  },
+  {
+    "name": "Aldabra 4 Liquidity Opportunity Vehicle, Inc.",
+    "symbol": "ALOV"
+  },
+  {
+    "name": "Aldabra 4 Liquidity Opportunity Vehicle, Inc.",
+    "symbol": "ALOVU"
+  },
+  {
+    "name": "Aldabra 4 Liquidity Opportunity Vehicle, Inc.",
+    "symbol": "ALOVW"
+  },
+  {
+    "name": "REalloys Inc.",
+    "symbol": "ALOY"
+  },
+  {
+    "name": "ALPS Group Inc",
+    "symbol": "ALPS"
+  },
+  {
+    "name": "Alarm.com Holdings, Inc.",
+    "symbol": "ALRM"
+  },
+  {
+    "name": "Alerus Financial Corporation",
+    "symbol": "ALRS"
+  },
+  {
+    "name": "Altimmune, Inc.",
+    "symbol": "ALT"
+  },
+  {
+    "name": "AlTi Global, Inc.",
+    "symbol": "ALTI"
+  },
+  {
+    "name": "Alto Ingredients, Inc.",
+    "symbol": "ALTO"
+  },
+  {
+    "name": "ALT5 Sigma Corporation",
+    "symbol": "ALTS"
+  },
+  {
+    "name": "Global X Alternative Income ETF",
+    "symbol": "ALTY"
+  },
+  {
+    "name": "Alvotech",
+    "symbol": "ALVO"
+  },
+  {
+    "name": "Alvotech",
+    "symbol": "ALVOW"
+  },
+  {
+    "name": "ALX Oncology Holdings Inc.",
+    "symbol": "ALXO"
+  },
+  {
+    "name": "Alzamend Neuro, Inc.",
+    "symbol": "ALZN"
+  },
+  {
+    "name": "Amalgamated Financial Corp.",
+    "symbol": "AMAL"
+  },
+  {
+    "name": "Ambarella, Inc.",
+    "symbol": "AMBA"
+  },
+  {
+    "name": "Amber International Holding Limited",
+    "symbol": "AMBR"
+  },
+  {
+    "name": "AMC Robotics Corporation",
+    "symbol": "AMCI"
+  },
+  {
+    "name": "AMC Networks Inc.",
+    "symbol": "AMCX"
+  },
+  {
+    "name": "Direxion Daily AMD Bear 1X ETF",
+    "symbol": "AMDD"
+  },
+  {
+    "name": "Leverage Shares 2X Long AMD Daily ETF",
+    "symbol": "AMDG"
+  },
+  {
+    "name": "GraniteShares 2x Long AMD Daily ETF",
+    "symbol": "AMDL"
+  },
+  {
+    "name": "Argent Mid Cap ETF",
+    "symbol": "AMID"
+  },
+  {
+    "name": "Autonomix Medical, Inc.",
+    "symbol": "AMIX"
+  },
+  {
+    "name": "Amkor Technology, Inc.",
+    "symbol": "AMKR"
+  },
+  {
+    "name": "Amylyx Pharmaceuticals, Inc.",
+    "symbol": "AMLX"
+  },
+  {
+    "name": "Alpha Modus Holdings, Inc.",
+    "symbol": "AMOD"
+  },
+  {
+    "name": "Alpha Modus Holdings, Inc.",
+    "symbol": "AMODW"
+  },
+  {
+    "name": "Amplitech Group, Inc.",
+    "symbol": "AMPG"
+  },
+  {
+    "name": "Amplitech Group, Inc.",
+    "symbol": "AMPGR"
+  },
+  {
+    "name": "Amplitech Group, Inc.",
+    "symbol": "AMPGZ"
+  },
+  {
+    "name": "Amphastar Pharmaceuticals, Inc.",
+    "symbol": "AMPH"
+  },
+  {
+    "name": "Amplitude, Inc.",
+    "symbol": "AMPL"
+  },
+  {
+    "name": "Amarin Corporation plc",
+    "symbol": "AMRN"
+  },
+  {
+    "name": "Amneal Pharmaceuticals, Inc.",
+    "symbol": "AMRX"
+  },
+  {
+    "name": "American Superconductor Corporation",
+    "symbol": "AMSC"
+  },
+  {
+    "name": "AMERISAFE, Inc.",
+    "symbol": "AMSF"
+  },
+  {
+    "name": "Amesite Inc.",
+    "symbol": "AMST"
+  },
+  {
+    "name": "Aemetis, Inc",
+    "symbol": "AMTX"
+  },
+  {
+    "name": "abrdn Ultra Short Municipal Income Active ETF",
+    "symbol": "AMUN"
+  },
+  {
+    "name": "Direxion Daily AMD Bull 2X ETF",
+    "symbol": "AMUU"
+  },
+  {
+    "name": "American Woodmark Corporation",
+    "symbol": "AMWD"
+  },
+  {
+    "name": "GraniteShares YieldBOOST AMD ETF",
+    "symbol": "AMYY"
+  },
+  {
+    "name": "Direxion Daily AMZN Bear 1X ETF",
+    "symbol": "AMZD"
+  },
+  {
+    "name": "Direxion Daily AMZN Bull 2X ETF",
+    "symbol": "AMZU"
+  },
+  {
+    "name": "GraniteShares 2x Long AMZN Daily ETF",
+    "symbol": "AMZZ"
+  },
+  {
+    "name": "AnaptysBio, Inc.",
+    "symbol": "ANAB"
+  },
+  {
+    "name": "The Andersons, Inc.",
+    "symbol": "ANDE"
+  },
+  {
+    "name": "Defiance Daily Target 2x Long ANET ETF",
+    "symbol": "ANEL"
+  },
+  {
+    "name": "Anghami Inc.",
+    "symbol": "ANGH"
+  },
+  {
+    "name": "Anghami Inc.",
+    "symbol": "ANGHW"
+  },
+  {
+    "name": "Angi Inc.",
+    "symbol": "ANGI"
+  },
+  {
+    "name": "VanEck Fallen Angel High Yield Bond ETF",
+    "symbol": "ANGL"
+  },
+  {
+    "name": "AngioDynamics, Inc.",
+    "symbol": "ANGO"
+  },
+  {
+    "name": "Anika Therapeutics Inc.",
+    "symbol": "ANIK"
+  },
+  {
+    "name": "ANI Pharmaceuticals, Inc.",
+    "symbol": "ANIP"
+  },
+  {
+    "name": "Anixa Biosciences, Inc.",
+    "symbol": "ANIX"
+  },
+  {
+    "name": "Adlai Nortye Ltd.",
+    "symbol": "ANL"
+  },
+  {
+    "name": "AleAnna, Inc.",
+    "symbol": "ANNA"
+  },
+  {
+    "name": "AleAnna, Inc.",
+    "symbol": "ANNAW"
+  },
+  {
+    "name": "Annexon, Inc.",
+    "symbol": "ANNX"
+  },
+  {
+    "name": "Rich Sparkle Holdings Limited",
+    "symbol": "ANPA"
+  },
+  {
+    "name": "Agriculture & Natural Solutions Acquisition Corporation",
+    "symbol": "ANSC"
+  },
+  {
+    "name": "Agriculture & Natural Solutions Acquisition Corporation",
+    "symbol": "ANSCU"
+  },
+  {
+    "name": "Agriculture & Natural Solutions Acquisition Corporation",
+    "symbol": "ANSCW"
+  },
+  {
+    "name": "Antalpha Platform Holding Company",
+    "symbol": "ANTA"
+  },
+  {
+    "name": "AN2 Therapeutics, Inc.",
+    "symbol": "ANTX"
+  },
+  {
+    "name": "GraniteShares Autocallable NVDA ETF",
+    "symbol": "ANV"
+  },
+  {
+    "name": "Sphere 3D Corp.",
+    "symbol": "ANY"
+  },
+  {
+    "name": "Angel Oak High Yield Opportunities ETF",
+    "symbol": "AOHY"
+  },
+  {
+    "name": "Alpha and Omega Semiconductor Limited",
+    "symbol": "AOSL"
+  },
+  {
+    "name": "AOT Growth and Innovation ETF",
+    "symbol": "AOTG"
+  },
+  {
+    "name": "American Outdoor Brands, Inc.",
+    "symbol": "AOUT"
+  },
+  {
+    "name": "StoneBridge Acquisition II Corporation",
+    "symbol": "APAC"
+  },
+  {
+    "name": "StoneBridge Acquisition II Corporation",
+    "symbol": "APACR"
+  },
+  {
+    "name": "StoneBridge Acquisition II Corporation",
+    "symbol": "APACU"
+  },
+  {
+    "name": "A Paradise Acquisition Corp.",
+    "symbol": "APAD"
+  },
+  {
+    "name": "A Paradise Acquisition Corp.",
+    "symbol": "APADR"
+  },
+  {
+    "name": "A Paradise Acquisition Corp.",
+    "symbol": "APADU"
+  },
+  {
+    "name": "ARKO Petroleum Corp.",
+    "symbol": "APC"
+  },
+  {
+    "name": "American Public Education, Inc.",
+    "symbol": "APEI"
+  },
+  {
+    "name": "Apogee Therapeutics, Inc.",
+    "symbol": "APGE"
+  },
+  {
+    "name": "Agora, Inc.",
+    "symbol": "API"
+  },
+  {
+    "name": "Applied Digital Corporation",
+    "symbol": "APLD"
+  },
+  {
+    "name": "Apollomics Inc.",
+    "symbol": "APLM"
+  },
+  {
+    "name": "Apollomics Inc.",
+    "symbol": "APLMW"
+  },
+  {
+    "name": "Apellis Pharmaceuticals, Inc.",
+    "symbol": "APLS"
+  },
+  {
+    "name": "Aptorum Group Limited",
+    "symbol": "APM"
+  },
+  {
+    "name": "Apogee Enterprises, Inc.",
+    "symbol": "APOG"
+  },
+  {
+    "name": "AppFolio, Inc.",
+    "symbol": "APPF"
+  },
+  {
+    "name": "Appian Corporation",
+    "symbol": "APPN"
+  },
+  {
+    "name": "Digital Turbine, Inc.",
+    "symbol": "APPS"
+  },
+  {
+    "name": "Tradr 2X Long APP Daily ETF",
+    "symbol": "APPX"
+  },
+  {
+    "name": "Aprea Therapeutics, Inc.",
+    "symbol": "APRE"
+  },
+  {
+    "name": "Aptevo Therapeutics Inc.",
+    "symbol": "APVO"
+  },
+  {
+    "name": "Asia Pacific Wire & Cable Corporation Limited ",
+    "symbol": "APWC"
+  },
+  {
+    "name": "Apex Treasury Corporation",
+    "symbol": "APXT"
+  },
+  {
+    "name": "Apex Treasury Corporation",
+    "symbol": "APXTU"
+  },
+  {
+    "name": "Apex Treasury Corporation",
+    "symbol": "APXTW"
+  },
+  {
+    "name": "Apyx Medical Corporation",
+    "symbol": "APYX"
+  },
+  {
+    "name": "AquaBounty Technologies, Inc.",
+    "symbol": "AQB"
+  },
+  {
+    "name": "Aqua Metals, Inc.",
+    "symbol": "AQMS"
+  },
+  {
+    "name": "Aquestive Therapeutics, Inc.",
+    "symbol": "AQST"
+  },
+  {
+    "name": "Global X Clean Water ETF",
+    "symbol": "AQWA"
+  },
+  {
+    "name": "Arrive AI Inc.",
+    "symbol": "ARAI"
+  },
+  {
+    "name": "Accuray Incorporated",
+    "symbol": "ARAY"
+  },
+  {
+    "name": "ARB IOT Group Limited",
+    "symbol": "ARBB"
+  },
+  {
+    "name": "Arbe Robotics Ltd.",
+    "symbol": "ARBE"
+  },
+  {
+    "name": "Arbe Robotics Ltd.",
+    "symbol": "ARBEW"
+  },
+  {
+    "name": "Argo Blockchain plc",
+    "symbol": "ARBK"
+  },
+  {
+    "name": "ArcBest Corporation",
+    "symbol": "ARCB"
+  },
+  {
+    "name": "Ares Capital Corporation",
+    "symbol": "ARCC"
+  },
+  {
+    "name": "Archimedes Tech SPAC Partners III Co.",
+    "symbol": "ARCI"
+  },
+  {
+    "name": "Archimedes Tech SPAC Partners III Co.",
+    "symbol": "ARCIU"
+  },
+  {
+    "name": "Archimedes Tech SPAC Partners III Co.",
+    "symbol": "ARCIW"
+  },
+  {
+    "name": "Arcturus Therapeutics Holdings Inc.",
+    "symbol": "ARCT"
+  },
+  {
+    "name": "Ardelyx, Inc.",
+    "symbol": "ARDX"
+  },
+  {
+    "name": "American Rebel Holdings, Inc.",
+    "symbol": "AREB"
+  },
+  {
+    "name": "American Rebel Holdings, Inc.",
+    "symbol": "AREBW"
+  },
+  {
+    "name": "American Resources Corporation",
+    "symbol": "AREC"
+  },
+  {
+    "name": "argenx SE",
+    "symbol": "ARGX"
+  },
+  {
+    "name": "Arhaus, Inc.",
+    "symbol": "ARHS"
+  },
+  {
+    "name": "ARKO Corp.",
+    "symbol": "ARKO"
+  },
+  {
+    "name": "Ark Restaurants Corp.",
+    "symbol": "ARKR"
+  },
+  {
+    "name": "Alliance Resource Partners, L.P.",
+    "symbol": "ARLP"
+  },
+  {
+    "name": "Arm Holdings plc",
+    "symbol": "ARM"
+  },
+  {
+    "name": "Leverage Shares 2X Long ARM Daily ETF",
+    "symbol": "ARMG"
+  },
+  {
+    "name": "Tema International Defense ETF",
+    "symbol": "ARMY"
+  },
+  {
+    "name": "Arrow Financial Corporation",
+    "symbol": "AROW"
+  },
+  {
+    "name": "Arq, Inc.",
+    "symbol": "ARQ"
+  },
+  {
+    "name": "Arqit Quantum Inc.",
+    "symbol": "ARQQ"
+  },
+  {
+    "name": "Arqit Quantum Inc.",
+    "symbol": "ARQQW"
+  },
+  {
+    "name": "Arcutis Biotherapeutics, Inc.",
+    "symbol": "ARQT"
+  },
+  {
+    "name": "Array Technologies, Inc.",
+    "symbol": "ARRY"
+  },
+  {
+    "name": "Art Technology Acquisition Corp.",
+    "symbol": "ARTC"
+  },
+  {
+    "name": "Art Technology Acquisition Corp.",
+    "symbol": "ARTCU"
+  },
+  {
+    "name": "Art Technology Acquisition Corp.",
+    "symbol": "ARTCW"
+  },
+  {
+    "name": "Artelo Biosciences, Inc.",
+    "symbol": "ARTL"
+  },
+  {
+    "name": "Artesian Resources Corporation",
+    "symbol": "ARTNA"
+  },
+  {
+    "name": "Artiva Biotherapeutics, Inc.",
+    "symbol": "ARTV"
+  },
+  {
+    "name": "Art's-Way Manufacturing Co., Inc.",
+    "symbol": "ARTW"
+  },
+  {
+    "name": "Arvinas, Inc.",
+    "symbol": "ARVN"
+  },
+  {
+    "name": "First Trust Indxx Metaverse ETF",
+    "symbol": "ARVR"
+  },
+  {
+    "name": "Arrowhead Pharmaceuticals, Inc.",
+    "symbol": "ARWR"
+  },
+  {
+    "name": "Aspire Biopharma Holdings, Inc. ",
+    "symbol": "ASBP"
+  },
+  {
+    "name": "Aspire Biopharma Holdings, Inc. ",
+    "symbol": "ASBPW"
+  },
+  {
+    "name": "abrdn International Small Cap Active ETF",
+    "symbol": "ASCI"
+  },
+  {
+    "name": "AerSale Corporation",
+    "symbol": "ASLE"
+  },
+  {
+    "name": "Assembly Biosciences, Inc.",
+    "symbol": "ASMB"
+  },
+  {
+    "name": "Leverage Shares 2X Long ASML Daily ETF",
+    "symbol": "ASMG"
+  },
+  {
+    "name": "ASML Holding N.V.",
+    "symbol": "ASML"
+  },
+  {
+    "name": "Direxion Daily ASML Bull 2X ETF",
+    "symbol": "ASMU"
+  },
+  {
+    "name": "Ascendis Pharma A/S",
+    "symbol": "ASND"
+  },
+  {
+    "name": "Actelis Networks, Inc.",
+    "symbol": "ASNS"
+  },
+  {
+    "name": "Academy Sports and Outdoors, Inc.",
+    "symbol": "ASO"
+  },
+  {
+    "name": "A SPAC III Acquisition Corp.",
+    "symbol": "ASPC"
+  },
+  {
+    "name": "A SPAC III Acquisition Corp.",
+    "symbol": "ASPCR"
+  },
+  {
+    "name": "A SPAC III Acquisition Corp.",
+    "symbol": "ASPCU"
+  },
+  {
+    "name": "ASP Isotopes Inc.",
+    "symbol": "ASPI"
+  },
+  {
+    "name": "Altisource Portfolio Solutions S.A.",
+    "symbol": "ASPS"
+  },
+  {
+    "name": "Altisource Portfolio Solutions S.A.",
+    "symbol": "ASPSW"
+  },
+  {
+    "name": "Altisource Portfolio Solutions S.A.",
+    "symbol": "ASPSZ"
+  },
+  {
+    "name": "Assertio Holdings, Inc.",
+    "symbol": "ASRT"
+  },
+  {
+    "name": "AmeriServ Financial Inc.",
+    "symbol": "ASRV"
+  },
+  {
+    "name": "Strive, Inc.",
+    "symbol": "ASST"
+  },
+  {
+    "name": "Astrotech Corporation",
+    "symbol": "ASTC"
+  },
+  {
+    "name": "Astec Industries, Inc.",
+    "symbol": "ASTE"
+  },
+  {
+    "name": "Astrana Health Inc.",
+    "symbol": "ASTH"
+  },
+  {
+    "name": "Ascent Solar Technologies, Inc",
+    "symbol": "ASTI"
+  },
+  {
+    "name": "Algoma Steel Group Inc.",
+    "symbol": "ASTL"
+  },
+  {
+    "name": "Algoma Steel Group Inc.",
+    "symbol": "ASTLW"
+  },
+  {
+    "name": "AST SpaceMobile, Inc.",
+    "symbol": "ASTS"
+  },
+  {
+    "name": "Asure Software Inc",
+    "symbol": "ASUR"
+  },
+  {
+    "name": "Amtech Systems, Inc.",
+    "symbol": "ASYS"
+  },
+  {
+    "name": "AtaiBeckley Inc.",
+    "symbol": "ATAI"
+  },
+  {
+    "name": "Atour Lifestyle Holdings Limited",
+    "symbol": "ATAT"
+  },
+  {
+    "name": "Atlas Critical Minerals Corporation",
+    "symbol": "ATCX"
+  },
+  {
+    "name": "Alphatec Holdings, Inc.",
+    "symbol": "ATEC"
+  },
+  {
+    "name": "Aterian, Inc.",
+    "symbol": "ATER"
+  },
+  {
+    "name": "Anterix Inc.",
+    "symbol": "ATEX"
+  },
+  {
+    "name": "Alpha Technology Group Limited",
+    "symbol": "ATGL"
+  },
+  {
+    "name": "Alterity Therapeutics Limited",
+    "symbol": "ATHE"
+  },
+  {
+    "name": "Aether Holdings, Inc.",
+    "symbol": "ATHR"
+  },
+  {
+    "name": "Archimedes Tech SPAC Partners II Co.",
+    "symbol": "ATII"
+  },
+  {
+    "name": "Archimedes Tech SPAC Partners II Co.",
+    "symbol": "ATIIU"
+  },
+  {
+    "name": "Archimedes Tech SPAC Partners II Co.",
+    "symbol": "ATIIW"
+  },
+  {
+    "name": "Atlanticus Holdings Corporation",
+    "symbol": "ATLC"
+  },
+  {
+    "name": "Atlanticus Holdings Corporation",
+    "symbol": "ATLCL"
+  },
+  {
+    "name": "Atlanticus Holdings Corporation",
+    "symbol": "ATLCP"
+  },
+  {
+    "name": "Atlanticus Holdings Corporation",
+    "symbol": "ATLCZ"
+  },
+  {
+    "name": "Atlantic International Corp.",
+    "symbol": "ATLN"
+  },
+  {
+    "name": "Ames National Corporation",
+    "symbol": "ATLO"
+  },
+  {
+    "name": "Atlas Lithium Corporation",
+    "symbol": "ATLX"
+  },
+  {
+    "name": "ATN International, Inc.",
+    "symbol": "ATNI"
+  },
+  {
+    "name": "Atomera Incorporated",
+    "symbol": "ATOM"
+  },
+  {
+    "name": "AlphaTON Capital Corp.",
+    "symbol": "ATON"
+  },
+  {
+    "name": "Atossa Therapeutics, Inc.",
+    "symbol": "ATOS"
+  },
+  {
+    "name": "Agape ATP Corporation",
+    "symbol": "ATPC"
+  },
+  {
+    "name": "Atara Biotherapeutics, Inc.",
+    "symbol": "ATRA"
+  },
+  {
+    "name": "AtriCure, Inc.",
+    "symbol": "ATRC"
+  },
+  {
+    "name": "Astronics Corporation",
+    "symbol": "ATRO"
+  },
+  {
+    "name": "Addentax Group Corp.",
+    "symbol": "ATXG"
+  },
+  {
+    "name": "aTyr Pharma, Inc.",
+    "symbol": "ATYR"
+  },
+  {
+    "name": "Auburn National Bancorporation, Inc.",
+    "symbol": "AUBN"
+  },
+  {
+    "name": "AudioCodes Ltd.",
+    "symbol": "AUDC"
+  },
+  {
+    "name": "Aura Minerals Inc.",
+    "symbol": "AUGO"
+  },
+  {
+    "name": "authID Inc.",
+    "symbol": "AUID"
+  },
+  {
+    "name": "Themes Gold Miners ETF",
+    "symbol": "AUMI"
+  },
+  {
+    "name": "Aurinia Pharmaceuticals Inc",
+    "symbol": "AUPH"
+  },
+  {
+    "name": "Aurora Innovation, Inc. ",
+    "symbol": "AUR"
+  },
+  {
+    "name": "Aura Biosciences, Inc.",
+    "symbol": "AURA"
+  },
+  {
+    "name": "Aurelion Inc. ",
+    "symbol": "AURE"
+  },
+  {
+    "name": "Aurora Innovation, Inc. ",
+    "symbol": "AUROW"
+  },
+  {
+    "name": "Autolus Therapeutics plc",
+    "symbol": "AUTL"
+  },
+  {
+    "name": "Auddia Inc.",
+    "symbol": "AUUD"
+  },
+  {
+    "name": "Aveanna Healthcare Holdings Inc.",
+    "symbol": "AVAH"
+  },
+  {
+    "name": "AeroVironment, Inc.",
+    "symbol": "AVAV"
+  },
+  {
+    "name": "Avidbank Holdings, Inc.",
+    "symbol": "AVBH"
+  },
+  {
+    "name": "ArriVent BioPharma, Inc.",
+    "symbol": "AVBP"
+  },
+  {
+    "name": "Avantis Credit ETF",
+    "symbol": "AVGB"
+  },
+  {
+    "name": "Leverage Shares 2X Long AVGO Daily ETF",
+    "symbol": "AVGG"
+  },
+  {
+    "name": "GraniteShares 2x Long AVGO Daily ETF",
+    "symbol": "AVGU"
+  },
+  {
+    "name": "Defiance Daily Target 2X Long AVGO ETF",
+    "symbol": "AVGX"
+  },
+  {
+    "name": "Atea Pharmaceuticals, Inc.",
+    "symbol": "AVIR"
+  },
+  {
+    "name": "Direxion Daily AVGO Bull 2X ETF",
+    "symbol": "AVL"
+  },
+  {
+    "name": "Aviat Networks, Inc.",
+    "symbol": "AVNW"
+  },
+  {
+    "name": "Mission Produce, Inc.",
+    "symbol": "AVO"
+  },
+  {
+    "name": "Avos Global Equities ETF",
+    "symbol": "AVOS"
+  },
+  {
+    "name": "AvePoint, Inc.",
+    "symbol": "AVPT"
+  },
+  {
+    "name": "Anteris Technologies Global Corp.",
+    "symbol": "AVR"
+  },
+  {
+    "name": "Direxion Daily AVGO Bear 1X ETF",
+    "symbol": "AVS"
+  },
+  {
+    "name": "Avnet, Inc.",
+    "symbol": "AVT"
+  },
+  {
+    "name": "Avalo Therapeutics, Inc.",
+    "symbol": "AVTX"
+  },
+  {
+    "name": "Avantis U.S. Quality ETF",
+    "symbol": "AVUQ"
+  },
+  {
+    "name": "Avax One Technology Ltd.",
+    "symbol": "AVX"
+  },
+  {
+    "name": "Avantis Emerging Markets ex-China Equity ETF",
+    "symbol": "AVXC"
+  },
+  {
+    "name": "Anavex Life Sciences Corp.",
+    "symbol": "AVXL"
+  },
+  {
+    "name": "Defiance Daily Target 2x Long AVAV ETF",
+    "symbol": "AVXX"
+  },
+  {
+    "name": "Aware, Inc.",
+    "symbol": "AWRE"
+  },
+  {
+    "name": "Solowin Holdings",
+    "symbol": "AXG"
+  },
+  {
+    "name": "Axogen, Inc.",
+    "symbol": "AXGN"
+  },
+  {
+    "name": "Axiom Intelligence Acquisition Corp 1",
+    "symbol": "AXIN"
+  },
+  {
+    "name": "Axiom Intelligence Acquisition Corp 1",
+    "symbol": "AXINR"
+  },
+  {
+    "name": "Axiom Intelligence Acquisition Corp 1",
+    "symbol": "AXINU"
+  },
+  {
+    "name": "Leverage Shares 2x Long AXP Daily ETF",
+    "symbol": "AXPG"
+  },
+  {
+    "name": "Axsome Therapeutics, Inc.",
+    "symbol": "AXSM"
+  },
+  {
+    "name": "AXT Inc",
+    "symbol": "AXTI"
+  },
+  {
+    "name": "Aytu BioPharma, Inc. ",
+    "symbol": "AYTU"
+  },
+  {
+    "name": "A2Z Cust2Mate Solutions Corp.",
+    "symbol": "AZ"
+  },
+  {
+    "name": "Autozi Internet Technology (Global) Ltd.",
+    "symbol": "AZI"
+  },
+  {
+    "name": "Azenta, Inc.",
+    "symbol": "AZTA"
+  },
+  {
+    "name": "GraniteShares YieldBoost AMZN ETF",
+    "symbol": "AZYY"
+  },
+  {
+    "name": "Direxion Daily BABA Bull 2X ETF",
+    "symbol": "BABU"
+  },
+  {
+    "name": "GraniteShares 2x Long BABA Daily ETF",
+    "symbol": "BABX"
+  },
+  {
+    "name": "Blue Acquisition Corp.",
+    "symbol": "BACC"
+  },
+  {
+    "name": "Blue Acquisition Corp.",
+    "symbol": "BACCR"
+  },
+  {
+    "name": "Blue Acquisition Corp.",
+    "symbol": "BACCU"
+  },
+  {
+    "name": "Bridger Aerospace Group Holdings, Inc.",
+    "symbol": "BAER"
+  },
+  {
+    "name": "Bridger Aerospace Group Holdings, Inc.",
+    "symbol": "BAERW"
+  },
+  {
+    "name": "Brown Advisory Flexible Equity ETF",
+    "symbol": "BAFE"
+  },
+  {
+    "name": "BayFirst Financial Corp.",
+    "symbol": "BAFN"
+  },
+  {
+    "name": "Leverage Shares 2X Long BBAI Daily ETF",
+    "symbol": "BAIG"
+  },
+  {
+    "name": "Brown Advisory International Value Select ETF",
+    "symbol": "BAIV"
+  },
+  {
+    "name": "iShares Nasdaq Premium Income Active ETF",
+    "symbol": "BALQ"
+  },
+  {
+    "name": "Bandwidth Inc.",
+    "symbol": "BAND"
+  },
+  {
+    "name": "BancFirst Corporation",
+    "symbol": "BANF"
+  },
+  {
+    "name": "BancFirst Corporation",
+    "symbol": "BANFP"
+  },
+  {
+    "name": "CBL International Limited",
+    "symbol": "BANL"
+  },
+  {
+    "name": "Banner Corporation",
+    "symbol": "BANR"
+  },
+  {
+    "name": "ArrowMark Financial Corp.",
+    "symbol": "BANX"
+  },
+  {
+    "name": "Baosheng Media Group Holdings Limited",
+    "symbol": "BAOS"
+  },
+  {
+    "name": "Brown Advisory Sustainable Growth ETF",
+    "symbol": "BASG"
+  }
+]

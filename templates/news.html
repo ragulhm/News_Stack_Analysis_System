@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Premium Intel Hub - Sentiment Stream -->
+<div class="max-w-7xl mx-auto space-y-40 py-12 animate-elite">
+    <!-- Institutional Header -->
+    <header
+        class="text-center space-y-16 relative py-36 overflow-hidden bg-white/[0.01] rounded-[6rem] border border-white/5 shadow-3xl">
+        <div
+            class="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-30 blur-[150px] rounded-full scale-125">
+        </div>
+        <div class="space-y-8 relative z-10 px-8">
+            <h1 class="hero-title tracking-tighter text-white overflow-hidden pb-10">
+                <span class="block">MARKET</span>
+                <span class="block text-gradient">NEWS</span>
+            </h1>
+            <p class="text-slate-500 text-xl md:text-2xl font-bold max-w-4xl mx-auto leading-relaxed italic opacity-70">
+                Synchronizing multi-source financial disclosures and neural sentiment vectors across the global market
+                collective.
+            </p>
+        </div>
+
+        <!-- News Filtering Terminal -->
+        <div class="max-w-2xl mx-auto relative z-10 pt-8 px-6">
+            <form action="/news" method="GET" class="relative group">
+                <div
+                    class="absolute inset-y-0 left-0 pl-8 flex items-center pointer-events-none transition-transform group-focus-within:scale-110 duration-700">
+                    <span class="text-xl font-black text-blue-400/30 tracking-tighter uppercase italic"></span>
+                </div>
+                <input type="text" name="q" value="{{ query if query else '' }}" placeholder="SCAN_GLOBAL_TOPICS..."
+                    class="bg-black/80 border border-white/10 rounded-2xl px-32 py-5 w-full focus:outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500/40 transition-all text-base font-black tracking-widest shadow-3xl placeholder:text-slate-800 uppercase italic">
+                <button type="submit"
+                    class="absolute inset-y-3 right-3 bg-gradient-to-br from-blue-400 to-indigo-600 hover:scale-105 active:scale-95 text-white px-8 py-2 rounded-xl font-black transition-all shadow-2xl shadow-blue-500/40 uppercase tracking-widest italic text-[9px]">
+                    RELOAD
+                </button>
+            </form>
+
+            <div
+                class="mt-8 flex flex-wrap justify-center gap-10 text-[9px] font-black uppercase tracking-[0.4em] text-slate-700 italic">
+                <span class="text-slate-600">CHANNELS:</span>
+                <a href="/news?q=AI" class="hover:text-blue-400 transition-all hover:scale-110">AI_INTEL</a>
+                <a href="/news?q=USA" class="hover:text-blue-400 transition-all hover:scale-110">US_MACRO</a>
+                <a href="/news?q=INDIA" class="hover:text-blue-400 transition-all hover:scale-110">INDIA_NODE</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Signal Mesh Grid -->
+    {% if articles %}
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {% for article in articles %}
+        <article
+            class="glass p-8 rounded-[2.5rem] border-white/5 space-y-8 card-hover relative group cursor-pointer flex flex-col justify-between shadow-3xl bg-white/[0.01]"
+            onclick="window.open('{{ article.url }}', '_blank')">
+            <div class="space-y-6 relative z-10">
+                <div class="flex items-center justify-between">
+                    <span
+                        class="px-3 py-1 rounded-lg bg-blue-500/10 border border-blue-500/20 text-[9px] font-black text-blue-400 uppercase tracking-widest italic">{{
+                        article.source }}</span>
+                    <span class="text-slate-700 text-[9px] font-bold uppercase tracking-widest italic">{{
+                        article.publishedAt[:10] }}</span>
+                </div>
+                <h4
+                    class="text-2xl font-black leading-tight text-white group-hover:text-emerald-400 transition-colors uppercase italic tracking-tighter">
+                    {{ article.title }}
+                </h4>
+                <p
+                    class="text-slate-500 text-sm font-bold leading-relaxed line-clamp-3 opacity-60 group-hover:opacity-100 transition-opacity italic">
+                    {{ article.description or "Source node contains multi-dimensional financial disclosures. Open
+                    encrypted protocol to view full sentiment analysis." }}
+                </p>
+            </div>
+
+            <div
+                class="mt-8 pt-6 border-t border-white/5 flex items-center justify-between text-[9px] font-black text-emerald-400 uppercase tracking-[0.3em] group-hover:translate-x-3 transition-transform italic">
+                DECRYPT_SIGNAL →
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div
+        class="col-span-full py-72 text-center glass rounded-[7rem] border-white/5 relative overflow-hidden shadow-4xl">
+        <div
+            class="absolute inset-0 bg-gradient-to-b from-rose-500/10 to-transparent opacity-20 blur-[200px] rounded-full scale-150">
+        </div>
+        <div class="text-[20rem] opacity-[0.03] font-black italic tracking-tighter mb-10 relative z-10 uppercase">
+            ZERO_SIGNAL</div>
+        <h3 class="text-6xl font-black text-white uppercase italic tracking-tighter relative z-10 mb-10">
+            SIGNAL_DROPOUT_DETECTED</h3>
+        <p
+            class="text-slate-500 text-3xl font-bold max-w-3xl mx-auto mb-20 relative z-10 italic leading-relaxed opacity-60">
+            System failed to capture relevant sentiment signals for the current sequence. No disclosures matching your
+            filter node were intercepted.</p>
+        <a href="/news"
+            class="bg-blue-500 text-white px-24 py-8 rounded-[4rem] font-black uppercase text-sm tracking-[0.5em] hover:scale-110 active:scale-95 transition-all shadow-4xl shadow-blue-500/40 italic relative z-10 inline-block">REBOOT_STREAM_PROTOCOL</a>
+    </div>
+    {% endif %}
+
+    {% if articles|length >= 18 %}
+    <div class="text-center pt-32">
+        <div
+            class="inline-block glass px-24 py-8 rounded-full border-white/5 text-slate-800 text-[12px] font-black uppercase tracking-[0.8em] italic animate-pulse">
+            STREAM_SATURATION_DETECTED • REFINE_FILTER_NODE
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
